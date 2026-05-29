@@ -1,0 +1,32 @@
+name: "💡 Suggest a New App"
+description: "Propose a brand-new minimalist utility for NoBS Apps"
+title: "[App Suggestion]: "
+labels: ["app-request", "community-idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping expand NoBS Apps! We look for daily tools that have been ruined by corporate bloat, ads, or tracking.
+  - type: input
+    id: app-name
+    attributes:
+      label: "Proposed App Name / Concept"
+      placeholder: "e.g., NoBS Pomodoro, Simple Currency Converter"
+    validations:
+      required: true
+  - type: textarea
+    id: core-utility
+    attributes:
+      label: "What is the core utility?"
+      description: "What exactly should this app do in its simplest form?"
+      placeholder: "It should just count down a time block and fire a local notification..."
+    validations:
+      required: true
+  - type: textarea
+    id: bloat-to-kill
+    attributes:
+      label: "What 'bullshit' are we avoiding?"
+      description: "What do existing apps on the Play/App Store do wrong that this app will fix?"
+      placeholder: "Existing apps require creating an online cloud account and send 5 spam notifications a day."
+    validations:
+      required: false
