@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoBS Fasting | Local-First Metabolic Tracker</title>
+    <style>
+        :root {
+            --bg: #F4F4F4;
+            --surface: #FFFFFF;
+            --text-main: #1C1C1C;
+            --text-sub: #707070;
+            --accent-green: #6D8C78;
+            --accent-purple: #7F758C;
+            --border: #E0E0E0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #161616;
+                --surface: #222222;
+                --text-main: #E5E5E5;
+                --text-sub: #8C8C8C;
+                --accent-green: #4B6A56;
+                --accent-purple: #5A5266;
+                --border: #333333;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        main { max-width: 620px; width: 100%; }
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+        }
+        h1 { margin: 0; font-size: 1.8rem; font-weight: 700; }
+        h2 { font-size: 1.3rem; margin-top: 36px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+        p { margin: 0 0 16px 0; }
+        .back-link { font-size: 0.9rem; text-decoration: none; color: var(--text-sub); display: inline-block; margin-bottom: 16px; }
+        .back-link:hover { color: var(--text-main); }
+        .timeline-item {
+            border-left: 3px solid var(--accent-green);
+            padding-left: 16px;
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .timeline-item.overtime { border-left-color: var(--accent-purple); }
+        .time-badge { font-weight: 700; font-size: 0.9rem; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.05em; }
+        .phase-title { font-size: 1.15rem; font-weight: 600; margin: 2px 0 6px 0; }
+        footer { margin-top: 60px; font-size: 0.85rem; color: var(--text-sub); text-align: center; }
+    </style>
+</head>
+<body>
+    <main>
+        <a href="../" class="back-link">← Return to NoBS Apps</a>
+        <header>
+            <h1>NoBS Fasting</h1>
+            <p class="text-sub">Android Application Documentation & Technical Specifications</p>
+        </header>
+
+        <section>
+            <h2>Metabolic Tracking Phases</h2>
+            <p>Your local application progress ring tracks biochemical transitions dynamically based on elapsed time milestones:</p>
+
+            <div class="timeline-item">
+                <div class="time-badge">04 Hours</div>
+                <div class="phase-title">Early Fasting</div>
+                <p>Your digestion wraps up, blood sugar stabilizes, and your insulin levels begin to drop.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time-badge">12 Hours</div>
+                <div class="phase-title">Fat Burning</div>
+                <p>Your body runs out of stored sugar reserves and flips the metabolic switch to burn stored fat for energy.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time-badge">18 Hours</div>
+                <div class="phase-title">Ketosis & Clarity</div>
+                <p>Your liver produces ketones to fuel your brain and body. This is the peak zone for mental focus and accelerated fat loss.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time-badge">24 Hours</div>
+                <div class="phase-title">Cellular Cleanup</div>
+                <p>Autophagy kicks in. Your cells start recycling old, damaged parts to regenerate and naturally detoxify your body.</p>
+            </div>
+
+            <div class="timeline-item overtime">
+                <div class="time-badge">24+ Hours (Extended Mode)</div>
+                <div class="phase-title">Peak Autophagy</div>
+                <p>Your cellular cleanup hits its peak stride. Your body aggressively breaks down and recycles old, damaged cell proteins.</p>
+            </div>
+
+            <div class="timeline-item overtime">
+                <div class="time-badge">30 Hours</div>
+                <div class="phase-title">Growth Hormone Spike</div>
+                <p>Human Growth Hormone (HGH) levels skyrocket. This helps protect your lean muscle mass and accelerates tissue repair.</p>
+            </div>
+
+            <div class="timeline-item overtime">
+                <div class="time-badge">36 Hours</div>
+                <div class="phase-title">Deep Cleanse</div>
+                <p>Autophagy levels drop as the cell recycling process clears out the majority of old components, leaving behind optimized, younger-acting cells.</p>
+            </div>
+
+            <div class="timeline-item overtime">
+                <div class="time-badge">48 Hours</div>
+                <div class="phase-title">Immune Reset</div>
+                <p>Your body begins recycling old, worn-out immune cells and triggers the production of brand-new white blood cells, effectively rebooting your immune system.</p>
+            </div>
+        </section>
+
+        <section id="privacy">
+            <h2>Official Privacy Policy</h2>
+            <p><strong>We have nothing to track because we store nothing on servers.</strong></p>
+            <p>NoBS Fasting does not include tracking SDKs, analytics monitors, or crash reporting telemetry. All parameters, log metrics, active timers, star counts, and layout settings are saved exclusively inside the local SQL file sandbox on your hardware. No network requests are initialized by this application.</p>
+        </section>
+
+        <footer>
+            <p>NoBS Fasting Hub &bull; Local-First Development Architecture</p>
+        </footer>
+    </main>
+</body>
+</html>
