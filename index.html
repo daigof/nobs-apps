@@ -1,220 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoBS Apps | Pure Utility Manifesto</title>
-    <style>
-        :root {
-            --bg: #F4F4F4;
-            --surface: #FFFFFF;
-            --text-main: #1C1C1C;
-            --text-sub: #707070;
-            --accent-green: #6D8C78;
-            --border: #E0E0E0;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #161616;
-                --surface: #222222;
-                --text-main: #E5E5E5;
-                --text-sub: #8C8C8C;
-                --accent-green: #4B6A56;
-                --border: #333333;
-            }
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-main);
-            line-height: 1.6;
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-        }
-        main { max-width: 620px; width: 100%; }
-        header {
-            margin-bottom: 40px;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 24px;
-        }
-        h1 { margin: 0; font-size: 2rem; font-weight: 700; }
-        h2 { font-size: 1.3rem; margin-top: 36px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
-        p { margin: 0 0 16px 0; }
-        ul { padding-left: 20px; margin-bottom: 24px; }
-        li { margin-bottom: 12px; }
-        .tagline { color: var(--text-sub); font-style: italic; margin-top: 6px; font-size: 1.05rem; }
-        .app-card,
-        .platform-card {
-            background-color: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .app-title { font-size: 1.2rem; font-weight: 600; margin: 0 0 8px 0; }
-        .app-link { 
-            display: inline-block; 
-            color: var(--accent-green); 
-            text-decoration: none; 
-            font-weight: 600;
-            margin-top: 8px;
-        }
-        .app-link:hover { text-decoration: underline; }
-        .platform-card {
-            margin-top: 20px;
-        }
-        .crypto-instruction {
-            font-size: 0.9rem;
-            color: var(--text-sub);
-            margin: 4px 0 12px 0;
-        }
-        .network-row {
-            margin-top: 20px;
-            border-top: 1px solid var(--border);
-            padding-top: 16px;
-        }
-        .network-row:first-of-type {
-            border-top: 0;
-            padding-top: 0;
-        }
-        .network-tag {
-            display: block;
-            margin-bottom: 6px;
-            color: var(--text-sub);
-            font-size: 0.8rem;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        .stablecoin-tag {
-            color: var(--accent-green);
-        }
-        .crypto-address,
-        .crypto-box {
-            background-color: var(--bg);
-            font-family: monospace;
-            padding: 12px;
-            border-radius: 4px;
-            border: 1px solid var(--border);
-            font-size: 0.85rem;
-            word-break: break-all;
-            margin-bottom: 6px;
-            color: var(--text-main);
-        }
-        .qr-toggle {
-            display: inline-block;
-            margin-top: 4px;
-            color: var(--accent-green);
-            cursor: pointer;
-            font-size: 0.82rem;
-            font-weight: 600;
-        }
-        .qr-toggle:hover {
-            text-decoration: underline;
-        }
-        .qr-image {
-            display: block;
-            width: 100%;
-            max-width: 170px;
-            margin-top: 10px;
-            border: 4px solid #FFFFFF;
-            border-radius: 4px;
-        }
-        .binance-qr {
-            margin: 14px auto 0 auto;
-        }
-        footer { margin-top: 60px; font-size: 0.85rem; color: var(--text-sub); text-align: center; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoBS Apps | Pure Utility Manifesto</title>
+  <style>
+    :root {
+      --bg: #F4F4F4;
+      --surface: #FFFFFF;
+      --text-main: #1C1C1C;
+      --text-sub: #707070;
+      --accent-green: #6D8C78;
+      --border: #E0E0E0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161616;
+        --surface: #222222;
+        --text-main: #E5E5E5;
+        --text-sub: #8C8C8C;
+        --accent-green: #4B6A56;
+        --border: #333333;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    main {
+      max-width: 620px;
+      width: 100%;
+    }
+
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 36px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 24px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    .tagline {
+      color: var(--text-sub);
+      font-style: italic;
+      margin-top: 6px;
+      font-size: 1.05rem;
+    }
+
+    .app-card,
+    .platform-card {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .app-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+    }
+
+    .app-link {
+      display: inline-block;
+      color: var(--accent-green);
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    .app-link:hover {
+      text-decoration: underline;
+    }
+
+    .platform-card {
+      margin-top: 20px;
+    }
+
+    .crypto-instruction {
+      font-size: 0.9rem;
+      color: var(--text-sub);
+      margin: 4px 0 12px 0;
+    }
+
+    .network-row {
+      margin-top: 20px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+
+    .network-row:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .network-tag {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text-sub);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .stablecoin-tag {
+      color: var(--accent-green);
+    }
+
+    .crypto-address,
+    .crypto-box {
+      background-color: var(--bg);
+      font-family: monospace;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      font-size: 0.85rem;
+      word-break: break-all;
+      margin-bottom: 6px;
+      color: var(--text-main);
+    }
+
+    .qr-toggle {
+      display: inline-block;
+      margin-top: 4px;
+      color: var(--accent-green);
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .qr-toggle:hover {
+      text-decoration: underline;
+    }
+
+    .qr-image {
+      display: block;
+      width: 100%;
+      max-width: 170px;
+      margin-top: 10px;
+      border: 4px solid #FFFFFF;
+      border-radius: 4px;
+    }
+
+    .binance-qr {
+      margin: 14px auto 0 auto;
+    }
+
+    .fiat-button-container {
+      margin-top: 12px;
+      display: flex;
+    }
+
+    .paypal-action-button {
+      display: inline-block;
+      background-color: var(--accent-green);
+      /* Targets your strict family matte green token */
+      color: #FAFAFA !important;
+      /* Forces high-contrast light text on dark surfaces */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      transition: background-color 0.15s ease, transform 0.1s ease;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .paypal-action-button:hover {
+      background-color: #5A7C66;
+      /* Elegant, slightly deeper matte green hover state blend */
+      text-decoration: none !important;
+    }
+
+    .paypal-action-button:active {
+      transform: scale(0.98);
+      /* Tactile click interaction feedback loop matching mobile app states */
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-    <main>
-        <header>
-            <h1>NoBS Apps</h1>
-            <p class="tagline">No accounts. No ads. No tracking. No bullshit.</p>
-        </header>
+  <main>
+    <header>
+      <h1>NoBS Apps</h1>
+      <p class="tagline">No accounts. No ads. No tracking. No bullshit.</p>
+    </header>
 
-        <section>
-            <h2>The Software Manifesto</h2>
-            <p>Modern mobile software is bloated. Simple tools have been twisted into data-harvesting networks packed with tracking cookies, notification spam, and forced cloud registrations designed to lock you into ecosystems.</p>
-            <p><strong>We build native utilities that work entirely offline, store data safely inside your device sandbox, and respect your cognitive boundaries.</strong></p>
-        </section>
+    <section>
+      <h2>The Software Manifesto</h2>
+      <p>Modern mobile software is bloated. Simple tools have been twisted into data-harvesting networks packed with
+        tracking cookies, notification spam, and forced cloud registrations designed to lock you into ecosystems.</p>
+      <p><strong>We build native utilities that work entirely offline, store data safely inside your device sandbox, and
+          respect your cognitive boundaries.</strong></p>
+    </section>
 
-        <section>
-            <h2>Active Deployments</h2>
-            <div class="app-card">
-                <p class="app-title">NoBS Fasting</p>
-                <p>An intermittent fasting tracker built natively for Android. Zero cloud infrastructure, local data persistence, and an incremental gamification loop that protects privacy.</p>
-                <a class="app-link" href="./fasting/">View Documentation →</a>
-            </div>
-        </section>
+    <section>
+      <h2>Active Deployments</h2>
+      <div class="app-card">
+        <p class="app-title">NoBS Fasting</p>
+        <p>An intermittent fasting tracker built natively for Android. Zero cloud infrastructure, local data
+          persistence, and an incremental gamification loop that protects privacy.</p>
+        <a class="app-link" href="./fasting/">View Documentation →</a>
+      </div>
+    </section>
 
-        <section id="support">
-            <h2>Support Independent Development</h2>
-            <p>We do not display tracking ads or lock utility features behind paywalls. If you value our anti-bloat software manifesto, consider supporting the mission directly:</p>
+    <section id="support">
+      <h2>Support Independent Development</h2>
+      <p>We do not display tracking ads or lock utility features behind paywalls. If you value our anti-bloat software
+        manifesto, consider supporting the mission directly:</p>
 
-            <div class="platform-card">
-                <p><strong>Option A: Binance Pay (Instant & Zero Network Fees)</strong></p>
-                <p class="crypto-instruction">The most frictionless option for mobile app users. Scan using your Binance App or send directly to our permanent Pay ID:</p>
-                <div class="crypto-address">104745781</div>
-                <img src="./binance-pay-qr.png" alt="Binance Pay QR Code" class="qr-image binance-qr">
-            </div>
+      <!-- Primary Fiat Tipping Gateways -->
+      <div class="platform-card" style="margin-bottom: 20px;">
+        <p><strong>PayPal / Card</strong></p>
+        <p class="crypto-instruction">Support the ongoing development of native utility apps instantly via Paypal or
+          standard card checkout:</p>
+        <div class="fiat-button-container">
+          <a href="https://paypal.me/daigofnobs" target="_blank" rel="noopener noreferrer" class="paypal-action-button">
+            Support via PayPal / Card →
+          </a>
+        </div>
+      </div>
 
-            <div class="platform-card">
-                <p><strong>Option B: Native Crypto Networks (Self-Custody Wallets)</strong></p>
-                <p class="crypto-instruction">For supporters sending from external software or hardware wallets. Please match the asset network exactly to prevent fund loss.</p>
+      <div class="platform-card">
+        <p><strong>Binance Pay (Instant & Zero Network Fees)</strong></p>
+        <p class="crypto-instruction">The most frictionless option for mobile app users. Scan using your Binance App or
+          send directly to our permanent Pay ID:</p>
+        <div class="crypto-address">104745781</div>
+        <img src="./binance-pay-qr.png" alt="Binance Pay QR Code" class="qr-image binance-qr">
+      </div>
 
-                <div class="network-row">
-                    <span class="network-tag stablecoin-tag">Tron Network (TRX / USDT TRC20)</span>
-                    <p class="crypto-instruction">Use this same Tron address for native TRX or Tether USDT sent on the TRC20 network only.</p>
-                    <div class="crypto-address">TRzYn7Wf4vVLXVEgUiyd9JhgGCaPCt9hhh</div>
-                    <details>
-                        <summary class="qr-toggle">Show Tron QR Code</summary>
-                        <img src="./trx-qr.jpg" alt="Tron Network TRX and USDT TRC20 QR Code" class="qr-image">
-                    </details>
-                </div>
+      <div class="platform-card">
+        <p><strong>Native Crypto Networks (Self-Custody Wallets)</strong></p>
+        <p class="crypto-instruction">For supporters sending from external software or hardware wallets. Please match
+          the asset network exactly to prevent fund loss.</p>
 
-                <div class="network-row">
-                    <span class="network-tag">BNB Smart Chain (BEP20)</span>
-                    <div class="crypto-address">0x0De3Ef57F5cf6811B8Cd7Dc6e806212Bf56a3faC</div>
-                    <details>
-                        <summary class="qr-toggle">Show BNB QR Code</summary>
-                        <img src="./bnb-qr.jpg" alt="BNB Smart Chain QR Code" class="qr-image">
-                    </details>
-                </div>
+        <div class="network-row">
+          <span class="network-tag stablecoin-tag">Tron Network (TRX / USDT TRC20)</span>
+          <p class="crypto-instruction">Use this same Tron address for native TRX or Tether USDT sent on the TRC20
+            network only.</p>
+          <div class="crypto-address">TRzYn7Wf4vVLXVEgUiyd9JhgGCaPCt9hhh</div>
+          <details>
+            <summary class="qr-toggle">Show Tron QR Code</summary>
+            <img src="./trx-qr.jpg" alt="Tron Network TRX and USDT TRC20 QR Code" class="qr-image">
+          </details>
+        </div>
 
-                <div class="network-row">
-                    <span class="network-tag">Bitcoin Network (BTC)</span>
-                    <div class="crypto-address">bc1qnndvfxv34xxz5dvuq49rltp4c6uxx07atfg7y5</div>
-                    <details>
-                        <summary class="qr-toggle">Show BTC QR Code</summary>
-                        <img src="./btc-qr.jpg" alt="Bitcoin QR Code" class="qr-image">
-                    </details>
-                </div>
+        <div class="network-row">
+          <span class="network-tag">BNB Smart Chain (BEP20)</span>
+          <div class="crypto-address">0x0De3Ef57F5cf6811B8Cd7Dc6e806212Bf56a3faC</div>
+          <details>
+            <summary class="qr-toggle">Show BNB QR Code</summary>
+            <img src="./bnb-qr.jpg" alt="BNB Smart Chain QR Code" class="qr-image">
+          </details>
+        </div>
 
-                <div class="network-row">
-                    <span class="network-tag">Solana Network (SOL)</span>
-                    <div class="crypto-address">5Nv9TCujEJNWTdAZ491rFbzBRZXRJykhsA4rNNj6jWg3</div>
-                    <details>
-                        <summary class="qr-toggle">Show SOL QR Code</summary>
-                        <img src="./sol-qr.jpg" alt="Solana QR Code" class="qr-image">
-                    </details>
-                </div>
+        <div class="network-row">
+          <span class="network-tag">Bitcoin Network (BTC)</span>
+          <div class="crypto-address">bc1qnndvfxv34xxz5dvuq49rltp4c6uxx07atfg7y5</div>
+          <details>
+            <summary class="qr-toggle">Show BTC QR Code</summary>
+            <img src="./btc-qr.jpg" alt="Bitcoin QR Code" class="qr-image">
+          </details>
+        </div>
 
-                <div class="network-row">
-                    <span class="network-tag">Litecoin Network (LTC)</span>
-                    <div class="crypto-address">ltc1q6wpc56dh69497n3m3h2t4m8a3qeq0yzytc2ude</div>
-                    <details>
-                        <summary class="qr-toggle">Show LTC QR Code</summary>
-                        <img src="./ltc-qr.jpg" alt="Litecoin QR Code" class="qr-image">
-                    </details>
-                </div>
-            </div>
-        </section>
+        <div class="network-row">
+          <span class="network-tag">Solana Network (SOL)</span>
+          <div class="crypto-address">5Nv9TCujEJNWTdAZ491rFbzBRZXRJykhsA4rNNj6jWg3</div>
+          <details>
+            <summary class="qr-toggle">Show SOL QR Code</summary>
+            <img src="./sol-qr.jpg" alt="Solana QR Code" class="qr-image">
+          </details>
+        </div>
 
-        <footer>
-            <p>&copy; NoBS Apps. Native utility without the distraction.</p>
-        </footer>
-    </main>
+        <div class="network-row">
+          <span class="network-tag">Litecoin Network (LTC)</span>
+          <div class="crypto-address">ltc1q6wpc56dh69497n3m3h2t4m8a3qeq0yzytc2ude</div>
+          <details>
+            <summary class="qr-toggle">Show LTC QR Code</summary>
+            <img src="./ltc-qr.jpg" alt="Litecoin QR Code" class="qr-image">
+          </details>
+        </div>
+      </div>
+
+
+    </section>
+
+    <footer>
+      <p>&copy; NoBS Apps. Native utility without the distraction.</p>
+    </footer>
+  </main>
 </body>
+
 </html>
