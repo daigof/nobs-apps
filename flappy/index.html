@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="flappy.metaTitle">NoBS Flappy | Local-First Offline Arcade</title>
+  <meta name="description"
+    content="NoBS Flappy is a local-first offline arcade game with local run history, distance tracking, and no ads, accounts, analytics, or cloud leaderboards.">
+  <meta name="author" content="NoBS Apps">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nobsapps.co/flappy/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NoBS Flappy | Local-First Offline Arcade">
+  <meta property="og:description"
+    content="A lightweight offline arcade game with local distance history and no ads, accounts, analytics, or online leaderboards.">
+  <meta property="og:url" content="https://nobsapps.co/flappy/">
+  <meta property="og:site_name" content="NoBS Apps">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://nobsapps.co/assets/social-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NoBS Apps preview: No accounts. No ads. No tracking. No Bullshit.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NoBS Flappy | Local-First Offline Arcade">
+  <meta name="twitter:description"
+    content="A lightweight offline arcade game with local distance history and no ads, accounts, analytics, or online leaderboards.">
+  <meta name="twitter:image" content="https://nobsapps.co/assets/social-preview.png">
+  <meta name="twitter:image:alt" content="NoBS Apps preview: No accounts. No ads. No tracking. No Bullshit.">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <script src="../assets/site.js"></script>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "NoBS Flappy",
+      "url": "https://nobsapps.co/flappy/",
+      "description": "NoBS Flappy is a local-first offline arcade game with local run history, distance tracking, and no ads, accounts, analytics, or cloud leaderboards.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Android, iOS",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NoBS Apps",
+        "url": "https://nobsapps.co/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <main>
+    <a href="../" class="back-link" data-i18n="flappy.backLink">&larr; Return to NoBS Apps</a>
+    <header>
+      <h1>NoBS Flappy</h1>
+      <p class="tagline" data-i18n="common.tagline">No accounts. No ads. No tracking. No bullshit.</p>
+    </header>
+
+    <section id="support" class="support-callout">
+      <h2 data-i18n="flappy.supportTitle">Support Independent Development</h2>
+      <p data-i18n="flappy.supportBody">NoBS Flappy is built without ads, telemetry, forced accounts, paid feature gates, or cloud leaderboards. If you
+        want to support the work, use the donation options on the NoBS Apps support section.</p>
+      <p><a class="section-link" href="../#support" data-i18n="flappy.supportLink">Open NoBS Apps support options &rarr;</a></p>
+    </section>
+
+    <section>
+      <h2 data-i18n="flappy.gameplayTitle">Offline Arcade Play</h2>
+      <p data-i18n="flappy.gameplayIntro">NoBS Flappy keeps the game loop simple, readable, and local:</p>
+
+      <div class="timeline-item">
+        <div class="time-badge" data-i18n="flappy.controlTime">Tap / Click</div>
+        <div class="phase-title" data-i18n="flappy.controlTitle">Flap Up</div>
+        <p data-i18n="flappy.controlBody">Tap anywhere on the play surface to flap upward. The world scrolls automatically, so the goal is to keep the
+          bird clear of hazards.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time-badge" data-i18n="flappy.distanceTime">Distance</div>
+        <div class="phase-title" data-i18n="flappy.distanceTitle">Distance, Not Accounts</div>
+        <p data-i18n="flappy.distanceBody">The game does not use points, social scores, or online rankings. During play, a quiet bottom-right HUD shows
+          "Distance travelled:" and completed runs report distance in kilometers or miles based on your setting.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time-badge" data-i18n="flappy.offlineTime">Offline</div>
+        <div class="phase-title" data-i18n="flappy.offlineTitle">Local Runs</div>
+        <p data-i18n="flappy.offlineBody">Run history and the best distance stay on your device. The core game works without network access, login, or
+          server services.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="time-badge" data-i18n="flappy.hudTime">HUD</div>
+        <div class="phase-title" data-i18n="flappy.hudTitle">Fast Controls</div>
+        <p data-i18n="flappy.hudBody">Start jumps straight into the playable surface. During a run, a small two-way Light/Dark toggle stays below the
+          floor line so theme changes do not count as flap input.</p>
+      </div>
+    </section>
+
+    <section id="hazards">
+      <h2 data-i18n="flappy.hazardsTitle">Hazards &amp; Game Over</h2>
+      <p data-i18n="flappy.hazardsIntro">Runs end only when the bird collides with a local gameplay hazard:</p>
+
+      <div class="feature-grid">
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.buildingsTitle">City Buildings</div>
+          <p data-i18n="flappy.buildingsBody">The endless city uses readable building silhouettes, stepped and pyramid rooflines, large window grids, doors,
+            and occasional antennas. Building bodies, antennas, and the floor are solid hazards.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.planesTitle">Airplanes</div>
+          <p data-i18n="flappy.planesBody">Airplanes unlock after 0.5 km, cross the high sky lane from right to left, and use three speed tiers. Plane
+            collisions end the run with dedicated copy.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.purpleAngryBirdTitle">Purple Angry Bird</div>
+          <p data-i18n="flappy.purpleAngryBirdBody">The purple Angry Bird unlocks at 1 km. It is a mirrored origami bird with a bounded flap path and a mild
+            player-height bias, so it feels aware without becoming a direct homing enemy.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.redAngryBirdTitle">Red Angry Bird</div>
+          <p data-i18n="flappy.redAngryBirdBody">The red Angry Bird unlocks at 2 km. It is faster and more aggressive than the purple one, but it must still
+            leave a playable bypass route.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.thunderTitle">Thunder Fall</div>
+          <p data-i18n="flappy.thunderBody">Repeatedly flying too high can trigger a thunder fall state. Input stops mattering, the bird falls upside down,
+            and the overlay waits until impact before ending the run.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.difficultyTitle">Difficulty Unlocks</div>
+          <p data-i18n="flappy.difficultyBody">Antennas may appear after 0.25 km, planes after 0.5 km, purple Angry Birds after 1 km, and red Angry Birds
+            after 2 km. World speed ramps at 1.5 km, 2.5 km, and 4 km.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.gameOverCopyTitle">Game-Over Copy</div>
+          <p data-i18n="flappy.gameOverCopyBody">The run explains what happened: floor, building, antenna, plane, Angry Bird, and thunder each have dedicated
+            messages. Angry Bird collisions say, "You've been hit by an Angry Bird!"</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="history">
+      <h2 data-i18n="flappy.historyTitle">Local History</h2>
+      <p data-i18n="flappy.historyIntro">History is plain by design, with no badges, stars, online profiles, or engagement loops.</p>
+
+      <div class="feature-grid">
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.runsTitle">Run Cards</div>
+          <p data-i18n="flappy.runsBody">Completed runs are stored locally with the newest run first. Each card shows the local date/time and distance
+            reached.</p>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="phase-title" data-i18n="flappy.bestTitle">Best Distance</div>
+          <p data-i18n="flappy.bestBody">When history exists, the best distance appears above the list as a simple local summary. Empty history stays empty.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback">
+      <h2 data-i18n="flappy.feedbackTitle">Feedback &amp; Feature Requests</h2>
+      <p data-i18n="flappy.feedbackBody">Bug reports, feature proposals, and platform feedback for NoBS Flappy belong in the public feedback queue:</p>
+      <p><a class="section-link" href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank"
+          rel="noopener noreferrer" data-i18n="flappy.feedbackLink">Open NoBS Flappy feedback on GitHub &rarr;</a></p>
+    </section>
+
+    <section id="privacy" class="privacy-policy">
+      <h2 data-i18n="flappy.privacyTitle">NoBS Flappy Privacy Policy</h2>
+      <p><em data-i18n="flappy.privacyUpdated">Last Updated: June 10, 2026</em></p>
+      <p data-i18n-html="flappy.privacyIntro">This Privacy Policy governs the data privacy practices of the <strong>NoBS Flappy</strong> mobile application
+        developed and published by <strong>NoBS Apps</strong> for supported mobile platforms.
+      </p>
+
+      <h3 data-i18n="flappy.privacyDataTitle">1. Data Collection &amp; Transmission Statement</h3>
+      <p data-i18n-html="flappy.privacyDataBody1"><strong>NoBS Flappy operates under a strict Zero-Telemetry, local-first architecture.</strong> The application
+        does not collect, capture, monitor, intercept, or transmit any personal, sensitive, gameplay, or
+        device-identifiable information to external cloud servers, databases, or third parties.</p>
+      <p data-i18n="flappy.privacyDataBody2">We do not use any third-party analytics SDKs, crash reporting tracking modules, advertising SDKs, online
+        leaderboard services, or identity management tools. No network requests are initialized by this application
+        during standard gameplay.</p>
+
+      <h3 data-i18n="flappy.privacyStorageTitle">2. Local Storage Sandbox</h3>
+      <p data-i18n="flappy.privacyStorageBody">Run history, best distance, language, theme, distance-unit setting, and processed support-purchase tokens are
+        stored exclusively inside the app's private local storage area on your device, using the standard persistence
+        technology for the platform. Your data remains under your personal custody and control at all times.</p>
+
+      <h3 data-i18n="flappy.privacyPermissionsTitle">3. Device Permissions Usage</h3>
+      <ul>
+        <li data-i18n-html="flappy.privacyPermissionsBody"><strong>No special gameplay permissions:</strong> The app does not need location, contacts, camera,
+          microphone, advertising identifiers, background services, push notifications, or cloud services for standard
+          gameplay.
+        </li>
+      </ul>
+
+      <h3 data-i18n="flappy.privacyPurchasesTitle">4. Optional Store Support Purchases</h3>
+      <p data-i18n="flappy.privacyPurchasesBody">Some platform builds may offer optional native store purchases as symbolic support. These purchases do not unlock
+        features or content and do not grant stars, points, badges, or other rewards. When a completed purchase is
+        reported by the platform store, the app may record the processed purchase token locally to prevent duplicate
+        processing.</p>
+
+      <h3 data-i18n="flappy.privacyChildrenTitle">5. Children's Privacy</h3>
+      <p data-i18n="flappy.privacyChildrenBody">Because NoBS Flappy does not collect, capture, or transmit any digital information from any user device
+        whatsoever, it is designed to avoid collecting children's personal information.</p>
+
+      <h3 data-i18n="flappy.privacyContactTitle">6. Policy Contact &amp; Support Hub</h3>
+      <p data-i18n-html="flappy.privacyContactBody">For technical inquiries, feature proposals, privacy questions, or platform feedback, use the public feedback
+        section above or open the GitHub queue directly: <a
+          href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer"
+          class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>
+      </p>
+    </section>
+
+    <footer>
+      <p data-i18n="flappy.footer">NoBS Flappy Hub &bull; Local-First Offline Arcade</p>
+    </footer>
+  </main>
+</body>
+
+</html>

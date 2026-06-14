@@ -1,0 +1,35 @@
+name: "NoBS Fasting Feedback"
+description: "Report a bug, request a change, or share platform feedback for NoBS Fasting"
+title: "[NoBS Fasting]: "
+labels: ["feedback", "triage", "nobs-fasting"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check if a similar NoBS Fasting issue already exists before submitting.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Operating System / Platform"
+      description: "Select the device ecosystem where this happened or where the request applies."
+      options:
+        - "Android"
+        - "iOS"
+        - "Other / not platform-specific"
+    validations:
+      required: false
+  - type: input
+    id: device-model
+    attributes:
+      label: "Device Model"
+      placeholder: "e.g., Samsung Galaxy S23 / iPhone 13"
+    validations:
+      required: false
+  - type: textarea
+    id: message
+    attributes:
+      label: "What is happening or what should change?"
+      description: "For bugs, describe what the app is doing wrong and what should happen instead. For requests, describe the desired behavior."
+      placeholder: "The clock progress bar does not switch to the purple overtime ring when crossing the 24-hour mark..."
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+name: "💡 Share an Idea or Feedback"
+description: "Suggest a new NoBS app, share feedback, or send a support message"
+title: "[Community]: "
+labels: ["app-request", "community-idea", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve NoBS Apps. You can suggest a new minimalist app, share general feedback, or send a support message.
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: "What would you like to share?"
+      options:
+        - "New app request"
+        - "General feedback / support message"
+    validations:
+      required: true
+  - type: input
+    id: app-name
+    attributes:
+      label: "Proposed App Name / Concept"
+      placeholder: "e.g., NoBS Pomodoro, NoBS Currency Converter"
+    validations:
+      required: false
+  - type: textarea
+    id: message
+    attributes:
+      label: "Message"
+      description: "For app requests, describe the core utility. For feedback or support, share your note here."
+      placeholder: "It should just count down a time block and fire a local notification... / I wanted to share feedback about..."
+    validations:
+      required: true
+  - type: textarea
+    id: bloat-to-kill
+    attributes:
+      label: "What 'bullshit' are we avoiding?"
+      description: "What do existing apps on the Play/App Store do wrong that this app will fix?"
+      placeholder: "Existing apps require creating an online cloud account and send 5 spam notifications a day."
+    validations:
+      required: false

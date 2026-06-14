@@ -1,0 +1,21 @@
+{
+  "name": "nobs-apps",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.5.2",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "biome check .",
+    "deploy": "wrangler pages deploy ./build --project-name=nobsapps-portfolio",
+    "release": "pnpm check && pnpm build && pnpm deploy"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "cheerio": "^1.2.0",
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "^1.32.0",
+    "terser": "^5.48.0",
+    "wrangler": "^4.100.0"
+  }
+}
