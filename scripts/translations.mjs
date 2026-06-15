@@ -24,6 +24,11 @@ export const translations = {
       copy: "Copy",
       copied: "Copied",
       failed: "Failed",
+      privacyBackLink: "← Return to app page",
+      privacyLinkTitle: "Privacy Policy",
+      privacyLinkBody:
+        "Read the standalone privacy policy, including local storage, device permissions, and optional support-purchase handling.",
+      privacyLink: "Open privacy policy →",
     },
     home: {
       metaTitle: "NoBS Apps | Pure Utility Manifesto",
@@ -345,6 +350,11 @@ export const translations = {
       copy: "Copiar",
       copied: "Copiado",
       failed: "Error",
+      privacyBackLink: "← Volver a la página de la app",
+      privacyLinkTitle: "Política de privacidad",
+      privacyLinkBody:
+        "Lee la política de privacidad independiente, incluida la información sobre almacenamiento local, permisos del dispositivo y compras de apoyo opcionales.",
+      privacyLink: "Abrir política de privacidad →",
     },
     home: {
       metaTitle: "NoBS Apps | Manifiesto de utilidad pura",
@@ -669,6 +679,11 @@ export const translations = {
       copy: "Copiar",
       copied: "Copiado",
       failed: "Falhou",
+      privacyBackLink: "← Voltar à página do app",
+      privacyLinkTitle: "Política de privacidade",
+      privacyLinkBody:
+        "Leia a política de privacidade independente, incluindo armazenamento local, permissões do dispositivo e tratamento de compras opcionais de apoio.",
+      privacyLink: "Abrir política de privacidade →",
     },
     home: {
       metaTitle: "NoBS Apps | Manifesto de utilidade pura",
@@ -991,6 +1006,11 @@ export const translations = {
       copy: "Copier",
       copied: "Copié",
       failed: "Échec",
+      privacyBackLink: "← Retour à la page de l’app",
+      privacyLinkTitle: "Politique de confidentialité",
+      privacyLinkBody:
+        "Lisez la politique de confidentialité autonome, notamment le stockage local, les autorisations de l’appareil et le traitement des achats de soutien optionnels.",
+      privacyLink: "Ouvrir la politique de confidentialité →",
     },
     home: {
       metaTitle: "NoBS Apps | Manifeste de l'utilité pure",
@@ -1317,6 +1337,11 @@ export const translations = {
       copy: "Kopieren",
       copied: "Kopiert",
       failed: "Fehler",
+      privacyBackLink: "← Zur App-Seite zurückkehren",
+      privacyLinkTitle: "Datenschutzrichtlinie",
+      privacyLinkBody:
+        "Lies die eigenständige Datenschutzrichtlinie mit Informationen zu lokaler Speicherung, Geräteberechtigungen und optionalen Support-Käufen.",
+      privacyLink: "Datenschutzrichtlinie öffnen →",
     },
     home: {
       metaTitle: "NoBS Apps | Manifest für reine Nützlichkeit",
@@ -1642,6 +1667,11 @@ export const translations = {
       copy: "コピー",
       copied: "コピー済み",
       failed: "失敗",
+      privacyBackLink: "← アプリページに戻る",
+      privacyLinkTitle: "プライバシーポリシー",
+      privacyLinkBody:
+        "ローカル保存、デバイス権限、任意のサポート購入の扱いを含む、独立したプライバシーポリシーを確認できます。",
+      privacyLink: "プライバシーポリシーを開く →",
     },
     home: {
       metaTitle: "NoBS Apps | 純粋な実用性のマニフェスト",
@@ -1963,6 +1993,10 @@ export const translations = {
       copy: "कॉपी",
       copied: "कॉपी हुआ",
       failed: "विफल",
+      privacyBackLink: "← ऐप पेज पर लौटें",
+      privacyLinkTitle: "Privacy Policy",
+      privacyLinkBody: "स्थानीय स्टोरेज, डिवाइस अनुमतियों और वैकल्पिक समर्थन खरीदारी के प्रबंधन सहित अलग privacy policy पढ़ें.",
+      privacyLink: "Privacy policy खोलें →",
     },
     home: {
       metaTitle: "NoBS Apps | शुद्ध उपयोगिता घोषणापत्र",
@@ -2281,6 +2315,10 @@ export const translations = {
       copy: "复制",
       copied: "已复制",
       failed: "失败",
+      privacyBackLink: "← 返回应用页面",
+      privacyLinkTitle: "隐私政策",
+      privacyLinkBody: "阅读独立隐私政策，了解本地存储、设备权限以及可选支持购买的处理方式。",
+      privacyLink: "打开隐私政策 →",
     },
     home: {
       metaTitle: "NoBS Apps | 纯实用宣言",

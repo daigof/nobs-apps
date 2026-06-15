@@ -26,16 +26,37 @@ const pages = [
     applicationCategory: "HealthApplication",
   },
   {
+    key: "fastingPrivacy",
+    translationKey: "fasting",
+    sourcePath: "fasting/privacy/index.html",
+    route: "fasting/privacy/",
+    pageType: "privacy",
+  },
+  {
     key: "flappy",
     sourcePath: "flappy/index.html",
     route: "flappy/",
     applicationCategory: "GameApplication",
   },
   {
+    key: "flappyPrivacy",
+    translationKey: "flappy",
+    sourcePath: "flappy/privacy/index.html",
+    route: "flappy/privacy/",
+    pageType: "privacy",
+  },
+  {
     key: "timers",
     sourcePath: "timers/index.html",
     route: "timers/",
     applicationCategory: "UtilitiesApplication",
+  },
+  {
+    key: "timersPrivacy",
+    translationKey: "timers",
+    sourcePath: "timers/privacy/index.html",
+    route: "timers/privacy/",
+    pageType: "privacy",
   },
 ];
 
@@ -131,9 +152,17 @@ const writeBuildFile = async (relativePath, content) => {
 };
 
 const getDescription = (localeCode, page) => {
+  const translationKey = page.translationKey ?? page.key;
+
   if (page.key === "home") {
     return stripHtml(
       `${getTranslation(localeCode, "common.tagline")} ${getTranslation(localeCode, "home.promiseBody2")}`,
+    );
+  }
+
+  if (page.pageType === "privacy") {
+    return stripHtml(
+      `${getTranslation(localeCode, `${translationKey}.privacyIntro`)} ${getTranslation(localeCode, `${translationKey}.privacyDataBody1`)}`,
     );
   }
 
@@ -163,6 +192,22 @@ const buildAlternateLinks = (page) => {
 };
 
 const getStructuredData = (locale, page, title, description) => {
+  if (page.pageType === "privacy") {
+    return {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: title.split("|")[0].trim(),
+      url: getAbsoluteUrl(locale, page),
+      description,
+      inLanguage: locale.code,
+      publisher: {
+        "@type": "Organization",
+        name: "NoBS Apps",
+        url: `${siteOrigin}/`,
+      },
+    };
+  }
+
   if (page.key === "home") {
     return {
       "@context": "https://schema.org",
@@ -291,7 +336,11 @@ const localizeTemplate = (html, locale, page) => {
   const $ = cheerio.load(html, { decodeEntities: false });
   const outputPath = getOutputPath(locale, page);
   const assetPrefix = getAssetPrefix(outputPath);
-  const title = getTranslation(locale.code, `${page.key}.metaTitle`);
+  const translationKey = page.translationKey ?? page.key;
+  const title =
+    page.pageType === "privacy"
+      ? `${getTranslation(locale.code, `${translationKey}.privacyTitle`)} | NoBS Apps`
+      : getTranslation(locale.code, `${translationKey}.metaTitle`);
   const description = getDescription(locale.code, page);
 
   $("html").attr("lang", locale.code);
