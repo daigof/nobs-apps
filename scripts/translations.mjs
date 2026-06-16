@@ -30,32 +30,34 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | Pure Utility Manifesto",
-      promiseTitle: "The NoBS Promise",
+      promiseTitle: "The NoBS Apps Promise",
       promiseBody1:
         "Modern apps are bloated. Basic tools have been turned into data-harvesting products packed with tracking cookies, notification spam, and forced cloud accounts.",
       promiseBody2:
         "<strong>We build native utilities that work offline, keep data on your device, and stay out of your way.</strong>",
       currentUtilitiesTitle: "Current Apps",
       fastingDescription:
-        "An intermittent fasting tracker for mobile platforms. It keeps fasting history on your device, works without cloud services, and uses plain progress tracking without ads or analytics.",
+        "An intermittent fasting tracker for mobile platforms. It keeps fasting history on your device, works without cloud services, and adds optional lightweight streak and star mechanics without ads or analytics.",
+      flappyTitle: "NoBS Flappy (coming soon)",
       flappyDescription:
-        "A lightweight offline arcade game for mobile platforms. It keeps run history on your device, works without cloud services, and uses simple distance tracking without ads, accounts, or analytics.",
+        "A lightweight offline arcade game for mobile platforms. It keeps run history on your device, works without an internet connection or cloud services, and uses simple distance tracking without ads, accounts, or analytics.",
+      timersTitle: "NoBS Timers (coming soon)",
       timersDescription:
-        "A simple clock utility for mobile platforms. It keeps alarms, stopwatch, countdowns, and pomodoro cycles local to your device without ads, accounts, analytics, or cloud sync.",
-      viewDocumentation: "View documentation →",
+        "A simple clock utility for mobile platforms. It keeps alarms, stopwatch, countdowns, and pomodoro cycles local to your device and works without an internet connection, ads, accounts, analytics, or cloud sync.",
+      viewDocumentation: "View app showcase →",
       supportTitle: "Support Independent Development",
       supportBody:
-        "We do not display tracking ads or lock utility features behind paywalls. If you value our anti-bloat software manifesto, consider supporting the mission directly:",
-      paypalTitle: "PayPal / Card",
+        "We don't display ads, track your data, or lock utility features behind paywalls. If you value our anti-bloat software manifesto, consider helping fund our work:",
+      paypalTitle: "PayPal / Cards",
       paypalInstruction: "Support the ongoing development of utility apps via PayPal or standard credit card checkout:",
-      paypalAction: "Support via PayPal / Card →",
+      paypalAction: "Support via PayPal / Cards →",
       binanceInstruction:
-        "The most frictionless option for mobile app users. Scan using your Binance app or send directly to our permanent Pay ID:",
+        "The most frictionless option for users using Binance. Scan using your Binance app or send directly to our permanent Pay ID:",
       copyBinancePay: "Copy Binance Pay ID",
       binanceAlt: "Binance Pay QR code",
       nativeCryptoTitle: "Native Crypto Networks",
       nativeCryptoInstruction:
-        "For supporters sending from external software or hardware wallets. Please match the asset network exactly to prevent fund loss.",
+        "For supporters sending from external software or hardware wallets.<br>Please match the asset network exactly to prevent fund loss.",
       tronTag: "TRX or USDT (Tron Network TRC20)",
       tronInstruction: "Use this same Tron address for native TRX or Tether USDT sent on the TRC20 network only.",
       copyTron: "Copy Tron address",
@@ -77,7 +79,7 @@ export const translations = {
       copyLitecoin: "Copy Litecoin address",
       showLtcQr: "Show LTC QR code",
       litecoinAlt: "Litecoin QR code",
-      footer: "© NoBS Apps. Native utility without distraction.",
+      footer: "© NoBS Apps. Useful utilities. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | Local-First Metabolic Tracker",
@@ -361,24 +363,28 @@ export const translations = {
         "<strong>Creamos utilidades nativas que funcionan sin conexión, conservan tus datos en tu dispositivo y no se interponen.</strong>",
       currentUtilitiesTitle: "Apps",
       fastingDescription:
-        "Un rastreador de ayuno intermitente para plataformas móviles. Mantiene el historial de ayunos en tu dispositivo, funciona sin servicios en la nube y usa seguimiento de progreso simple, sin anuncios ni analíticas.",
+        "Un rastreador de ayuno intermitente para plataformas móviles. Mantiene el historial de ayunos en tu dispositivo, funciona sin servicios en la nube y agrega mecánicas opcionales y ligeras de rachas y estrellas, sin anuncios ni analíticas.",
+      flappyTitle: "NoBS Flappy (próximamente)",
       flappyDescription:
-        "Un juego arcade liviano sin conexión para plataformas móviles. Mantiene el historial de partidas en tu dispositivo, funciona sin servicios en la nube y usa seguimiento simple de distancia, sin anuncios, cuentas ni analíticas.",
-      viewDocumentation: "Ver documentación →",
+        "Un juego arcade liviano sin conexión para plataformas móviles. Mantiene el historial de partidas en tu dispositivo, funciona sin conexión a internet ni servicios en la nube, y usa seguimiento simple de distancia, sin anuncios, cuentas ni analíticas.",
+      timersTitle: "NoBS Timers (próximamente)",
+      timersDescription:
+        "Una utilidad de reloj simple para plataformas móviles. Mantiene alarmas, cronómetro, cuentas regresivas y ciclos pomodoro en tu dispositivo, y funciona sin conexión a internet, anuncios, cuentas, analíticas ni sincronización en la nube.",
+      viewDocumentation: "Ver showcase de la app →",
       supportTitle: "Apoya el desarrollo independiente",
       supportBody:
-        "No mostramos anuncios con rastreo ni bloqueamos funciones útiles detrás de muros de pago. Si valoras nuestro manifiesto contra el software inflado, considera apoyar la misión directamente:",
-      paypalTitle: "PayPal / Tarjeta",
+        "No mostramos anuncios, no rastreamos tus datos ni bloqueamos funciones útiles detrás de muros de pago. Si valoras nuestro manifiesto contra el software inflado, considera ayudar a financiar nuestro trabajo:",
+      paypalTitle: "PayPal / Tarjetas",
       paypalInstruction:
         "Apoya el desarrollo continuo de apps útiles con PayPal o con pago estándar con tarjeta de crédito:",
-      paypalAction: "Donar con PayPal / Tarjeta →",
+      paypalAction: "Donar con PayPal / Tarjetas →",
       binanceInstruction:
-        "La opción con menos fricción para usuarios móviles. Escanea con tu app de Binance o envía directamente a nuestro Pay ID permanente:",
+        "La opción con menos fricción para usuarios que usan Binance. Escanea con tu app de Binance o envía directamente a nuestro Pay ID permanente:",
       copyBinancePay: "Copiar Pay ID de Binance",
       binanceAlt: "Código QR de Binance Pay",
       nativeCryptoTitle: "Redes cripto",
       nativeCryptoInstruction:
-        "Para colaboradores que envían desde software externo o hardware wallets. Haz coincidir exactamente la red crypto para evitar pérdida de fondos.",
+        "Para colaboradores que envían desde software externo o hardware wallets.<br>Haz coincidir exactamente la red crypto para evitar pérdida de fondos.",
       tronTag: "TRX o USDT (red Tron TRC20)",
       tronInstruction: "Usa esta misma dirección de Tron solo para TRX nativo o Tether USDT enviado por la red TRC20.",
       copyTron: "Copiar dirección de Tron",
@@ -400,9 +406,7 @@ export const translations = {
       copyLitecoin: "Copiar dirección de Litecoin",
       showLtcQr: "Mostrar código QR de LTC",
       litecoinAlt: "Código QR de Litecoin",
-      footer: "© NoBS Apps. Utilidad nativa sin distracciones.",
-      timersDescription:
-        "Una utilidad de reloj simple para plataformas móviles. Mantiene alarmas, cronómetro, cuentas regresivas y ciclos pomodoro en tu dispositivo, sin anuncios, cuentas, analíticas ni sincronización en la nube.",
+      footer: "© NoBS Apps. Utilidades útiles. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | Rastreador metabólico local-first",
@@ -681,31 +685,35 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | Manifesto de utilidade pura",
-      promiseTitle: "A promessa NoBS",
+      promiseTitle: "A promessa NoBS Apps",
       promiseBody1:
         "Apps modernos estão inchados. Ferramentas básicas viraram produtos de coleta de dados cheios de cookies de rastreamento, spam de notificações e contas obrigatórias na nuvem.",
       promiseBody2:
         "<strong>Criamos utilitários nativos que funcionam offline, mantêm os dados no seu dispositivo e saem do seu caminho.</strong>",
       currentUtilitiesTitle: "Apps atuais",
       fastingDescription:
-        "Um rastreador de jejum intermitente para plataformas móveis. Ele mantém o histórico de jejuns no seu dispositivo, funciona sem serviços de nuvem e usa acompanhamento simples de progresso, sem anúncios nem analíticas.",
+        "Um rastreador de jejum intermitente para plataformas móveis. Ele mantém o histórico de jejuns no seu dispositivo, funciona sem serviços de nuvem e adiciona mecânicas opcionais e leves de sequências e estrelas, sem anúncios nem analíticas.",
+      flappyTitle: "NoBS Flappy (em breve)",
       flappyDescription:
-        "Um jogo arcade offline leve para plataformas móveis. Ele mantém o histórico de partidas no seu dispositivo, funciona sem serviços de nuvem e usa acompanhamento simples de distância, sem anúncios, contas ou analíticas.",
-      viewDocumentation: "Ver documentação →",
+        "Um jogo arcade offline leve para plataformas móveis. Ele mantém o histórico de partidas no seu dispositivo, funciona sem conexão com a internet nem serviços de nuvem e usa acompanhamento simples de distância, sem anúncios, contas ou analíticas.",
+      timersTitle: "NoBS Timers (em breve)",
+      timersDescription:
+        "Um utilitário simples de relógio para plataformas móveis. Ele mantém alarmes, cronômetro, contagens regressivas e ciclos pomodoro no seu dispositivo e funciona sem conexão com a internet, anúncios, contas, análises ou sincronização em nuvem.",
+      viewDocumentation: "Ver showcase do app →",
       supportTitle: "Apoie o desenvolvimento independente",
       supportBody:
-        "Não exibimos anúncios com rastreamento nem bloqueamos recursos úteis atrás de paywalls. Se você valoriza nosso manifesto contra software inchado, considere apoiar a missão diretamente:",
-      paypalTitle: "PayPal / Cartão",
+        "Não exibimos anúncios, não rastreamos seus dados nem bloqueamos recursos úteis atrás de paywalls. Se você valoriza nosso manifesto contra software inchado, considere ajudar a financiar nosso trabalho:",
+      paypalTitle: "PayPal / Cartões",
       paypalInstruction:
         "Apoie o desenvolvimento contínuo de apps utilitários via PayPal ou checkout padrão com cartão de crédito:",
-      paypalAction: "Apoiar via PayPal / Cartão →",
+      paypalAction: "Apoiar via PayPal / Cartões →",
       binanceInstruction:
-        "A opção com menos atrito para usuários de apps móveis. Escaneie com o app Binance ou envie diretamente para nosso Pay ID permanente:",
+        "A opção com menos atrito para usuários que usam Binance. Escaneie com o app Binance ou envie diretamente para nosso Pay ID permanente:",
       copyBinancePay: "Copiar Pay ID da Binance",
       binanceAlt: "Código QR do Binance Pay",
       nativeCryptoTitle: "Redes cripto nativas",
       nativeCryptoInstruction:
-        "Para apoiadores que enviam de softwares externos ou carteiras de hardware. Confira exatamente a rede do ativo para evitar perda de fundos.",
+        "Para apoiadores que enviam de softwares externos ou carteiras de hardware.<br>Confira exatamente a rede do ativo para evitar perda de fundos.",
       tronTag: "TRX ou USDT (rede Tron TRC20)",
       tronInstruction: "Use este mesmo endereço Tron apenas para TRX nativo ou Tether USDT enviado pela rede TRC20.",
       copyTron: "Copiar endereço Tron",
@@ -727,9 +735,7 @@ export const translations = {
       copyLitecoin: "Copiar endereço Litecoin",
       showLtcQr: "Mostrar código QR LTC",
       litecoinAlt: "Código QR do Litecoin",
-      footer: "© NoBS Apps. Utilidade nativa sem distração.",
-      timersDescription:
-        "Um utilitário simples de relógio para plataformas móveis. Ele mantém alarmes, cronômetro, contagens regressivas e ciclos pomodoro no seu dispositivo, sem anúncios, contas, análises ou sincronização em nuvem.",
+      footer: "© NoBS Apps. Utilitários úteis. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | Rastreador metabólico local-first",
@@ -1006,31 +1012,35 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | Manifeste de l'utilité pure",
-      promiseTitle: "La promesse NoBS",
+      promiseTitle: "La promesse NoBS Apps",
       promiseBody1:
         "Les apps modernes sont gonflées. Des outils basiques sont devenus des produits de collecte de données remplis de cookies de suivi, de spam de notifications et de comptes cloud imposés.",
       promiseBody2:
         "<strong>Nous créons des utilitaires natifs qui fonctionnent hors ligne, gardent vos données sur votre appareil et restent à leur place.</strong>",
       currentUtilitiesTitle: "Apps actuels",
       fastingDescription:
-        "Un suivi de jeûne intermittent pour plateformes mobiles. Il garde l'historique des jeûnes sur votre appareil, fonctionne sans services cloud et utilise un suivi de progression simple, sans pubs ni analyses.",
+        "Un suivi de jeûne intermittent pour plateformes mobiles. Il garde l'historique des jeûnes sur votre appareil, fonctionne sans services cloud et ajoute des mécaniques optionnelles et légères de séries et d'étoiles, sans pubs ni analyses.",
+      flappyTitle: "NoBS Flappy (bientôt disponible)",
       flappyDescription:
-        "Un jeu d'arcade hors ligne léger pour plateformes mobiles. Il garde l'historique des parties sur votre appareil, fonctionne sans services cloud et utilise un suivi simple de la distance, sans pubs, comptes ni analyses.",
-      viewDocumentation: "Voir la documentation →",
+        "Un jeu d'arcade hors ligne léger pour plateformes mobiles. Il garde l'historique des parties sur votre appareil, fonctionne sans connexion internet ni services cloud et utilise un suivi simple de la distance, sans pubs, comptes ni analyses.",
+      timersTitle: "NoBS Timers (bientôt disponible)",
+      timersDescription:
+        "Un utilitaire d'horloge simple pour plateformes mobiles. Il garde alarmes, chronomètre, comptes à rebours et cycles pomodoro sur votre appareil, et fonctionne sans connexion internet, publicités, comptes, analyses ni synchronisation cloud.",
+      viewDocumentation: "Voir le showcase de l'app →",
       supportTitle: "Soutenir le développement indépendant",
       supportBody:
-        "Nous n'affichons pas de pubs de suivi et nous ne bloquons pas les fonctions utiles derrière des paywalls. Si vous appréciez notre manifeste anti-bloat, vous pouvez soutenir directement la mission :",
-      paypalTitle: "PayPal / Carte",
+        "Nous n'affichons pas de publicités, ne suivons pas vos données et ne bloquons pas les fonctions utiles derrière des paywalls. Si vous appréciez notre manifeste anti-bloat, vous pouvez aider à financer notre travail :",
+      paypalTitle: "PayPal / Cartes",
       paypalInstruction:
         "Soutenez le développement continu des apps utilitaires via PayPal ou un paiement classique par carte bancaire :",
-      paypalAction: "Soutenir via PayPal / Carte →",
+      paypalAction: "Soutenir via PayPal / Cartes →",
       binanceInstruction:
-        "L'option la plus fluide pour les utilisateurs mobiles. Scannez avec votre app Binance ou envoyez directement vers notre Pay ID permanent :",
+        "L'option la plus fluide pour les utilisateurs qui utilisent Binance. Scannez avec votre app Binance ou envoyez directement vers notre Pay ID permanent :",
       copyBinancePay: "Copier le Pay ID Binance",
       binanceAlt: "Code QR Binance Pay",
       nativeCryptoTitle: "Réseaux crypto natifs",
       nativeCryptoInstruction:
-        "Pour les soutiens qui envoient depuis un logiciel externe ou un portefeuille matériel. Faites correspondre exactement le réseau de l'actif afin d'éviter toute perte de fonds.",
+        "Pour les soutiens qui envoient depuis un logiciel externe ou un portefeuille matériel.<br>Faites correspondre exactement le réseau de l'actif afin d'éviter toute perte de fonds.",
       tronTag: "TRX ou USDT (réseau Tron TRC20)",
       tronInstruction:
         "Utilisez cette même adresse Tron uniquement pour du TRX natif ou du Tether USDT envoyé sur le réseau TRC20.",
@@ -1053,9 +1063,7 @@ export const translations = {
       copyLitecoin: "Copier l'adresse Litecoin",
       showLtcQr: "Afficher le QR LTC",
       litecoinAlt: "Code QR Litecoin",
-      footer: "© NoBS Apps. Utilité native sans distraction.",
-      timersDescription:
-        "Un utilitaire d’horloge simple pour plateformes mobiles. Il garde alarmes, chronomètre, comptes à rebours et cycles pomodoro sur votre appareil, sans publicités, comptes, analyses ni synchronisation cloud.",
+      footer: "© NoBS Apps. Utilitaires utiles. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | Suivi métabolique local-first",
@@ -1335,31 +1343,35 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | Manifest für reine Nützlichkeit",
-      promiseTitle: "Das NoBS-Versprechen",
+      promiseTitle: "Das NoBS Apps-Versprechen",
       promiseBody1:
         "Moderne Apps sind aufgebläht. Einfache Werkzeuge wurden zu Datensammelprodukten mit Tracking-Cookies, Benachrichtigungs-Spam und erzwungenen Cloud-Konten.",
       promiseBody2:
         "<strong>Wir bauen native Werkzeuge, die offline funktionieren, Daten auf deinem Gerät behalten und dir nicht im Weg stehen.</strong>",
       currentUtilitiesTitle: "Aktuelle Apps",
       fastingDescription:
-        "Ein Intervallfasten-Tracker für mobile Plattformen. Er speichert den Fastenverlauf auf deinem Gerät, funktioniert ohne Cloud-Dienste und nutzt einfache Fortschrittsverfolgung ohne Werbung oder Analytik.",
+        "Ein Intervallfasten-Tracker für mobile Plattformen. Er speichert den Fastenverlauf auf deinem Gerät, funktioniert ohne Cloud-Dienste und ergänzt optionale, leichte Streak- und Stern-Mechaniken ohne Werbung oder Analytik.",
+      flappyTitle: "NoBS Flappy (demnächst)",
       flappyDescription:
-        "Ein leichtes Offline-Arcade-Spiel für mobile Plattformen. Es speichert den Spielverlauf auf deinem Gerät, funktioniert ohne Cloud-Dienste und nutzt einfache Distanzverfolgung ohne Werbung, Konten oder Analytik.",
-      viewDocumentation: "Dokumentation ansehen →",
+        "Ein leichtes Offline-Arcade-Spiel für mobile Plattformen. Es speichert den Spielverlauf auf deinem Gerät, funktioniert ohne Internetverbindung oder Cloud-Dienste und nutzt einfache Distanzverfolgung ohne Werbung, Konten oder Analytik.",
+      timersTitle: "NoBS Timers (demnächst)",
+      timersDescription:
+        "Ein einfaches Uhr-Werkzeug für mobile Plattformen. Es hält Wecker, Stoppuhr, Countdowns und Pomodoro-Zyklen lokal auf deinem Gerät und funktioniert ohne Internetverbindung, Werbung, Konten, Analysen oder Cloud-Sync.",
+      viewDocumentation: "App-Showcase ansehen →",
       supportTitle: "Unabhängige Entwicklung unterstützen",
       supportBody:
-        "Wir zeigen keine Tracking-Werbung und sperren nützliche Funktionen nicht hinter Paywalls. Wenn du unser Anti-Bloat-Manifest schätzt, kannst du die Mission direkt unterstützen:",
-      paypalTitle: "PayPal / Karte",
+        "Wir zeigen keine Werbung, verfolgen deine Daten nicht und sperren nützliche Funktionen nicht hinter Paywalls. Wenn du unser Anti-Bloat-Manifest schätzt, hilf gern, unsere Arbeit zu finanzieren:",
+      paypalTitle: "PayPal / Karten",
       paypalInstruction:
         "Unterstütze die laufende Entwicklung von Utility-Apps per PayPal oder normaler Kreditkartenzahlung:",
-      paypalAction: "Per PayPal / Karte unterstützen →",
+      paypalAction: "Per PayPal / Karten unterstützen →",
       binanceInstruction:
-        "Die reibungsloseste Option für Nutzer mobiler Apps. Mit deiner Binance-App scannen oder direkt an unsere permanente Pay ID senden:",
+        "Die reibungsloseste Option für Nutzer, die Binance verwenden. Mit deiner Binance-App scannen oder direkt an unsere permanente Pay ID senden:",
       copyBinancePay: "Binance Pay ID kopieren",
       binanceAlt: "Binance Pay QR-Code",
       nativeCryptoTitle: "Native Krypto-Netzwerke",
       nativeCryptoInstruction:
-        "Für Unterstützer, die aus externer Software oder Hardware-Wallets senden. Bitte gleiche das Asset-Netzwerk exakt ab, um Geldverlust zu vermeiden.",
+        "Für Unterstützer, die aus externer Software oder Hardware-Wallets senden.<br>Bitte gleiche das Asset-Netzwerk exakt ab, um Geldverlust zu vermeiden.",
       tronTag: "TRX oder USDT (Tron-Netzwerk TRC20)",
       tronInstruction:
         "Verwende dieselbe Tron-Adresse nur für natives TRX oder Tether USDT, das über das TRC20-Netzwerk gesendet wird.",
@@ -1382,9 +1394,7 @@ export const translations = {
       copyLitecoin: "Litecoin-Adresse kopieren",
       showLtcQr: "LTC-QR-Code anzeigen",
       litecoinAlt: "Litecoin QR-Code",
-      footer: "© NoBS Apps. Native Nützlichkeit ohne Ablenkung.",
-      timersDescription:
-        "Ein einfaches Uhr-Werkzeug für mobile Plattformen. Es hält Wecker, Stoppuhr, Countdowns und Pomodoro-Zyklen lokal auf deinem Gerät, ohne Werbung, Konten, Analysen oder Cloud-Sync.",
+      footer: "© NoBS Apps. Nützliche Werkzeuge. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | Local-First Stoffwechsel-Tracker",
@@ -1663,30 +1673,34 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | 純粋な実用性のマニフェスト",
-      promiseTitle: "NoBS の約束",
+      promiseTitle: "NoBS Apps の約束",
       promiseBody1:
         "現代のアプリは肥大化しています。基本的なツールは、追跡 Cookie、通知スパム、強制クラウドアカウントを詰め込んだデータ収集製品に変わりました。",
       promiseBody2:
         "<strong>私たちは、オフラインで動作し、データを端末内に保ち、邪魔をしないネイティブユーティリティを作ります。</strong>",
       currentUtilitiesTitle: "現在のユーティリティ",
       fastingDescription:
-        "モバイルプラットフォーム向けの断続的断食トラッカーです。断食履歴を端末内に保存し、クラウドサービスなしで動作し、広告や分析なしのシンプルな進捗追跡を使います。",
+        "モバイルプラットフォーム向けの断続的断食トラッカーです。断食履歴を端末内に保存し、クラウドサービスなしで動作し、広告や分析なしで任意の軽量な連続記録とスターの仕組みを追加できます。",
+      flappyTitle: "NoBS Flappy（近日公開）",
       flappyDescription:
-        "モバイルプラットフォーム向けの軽量オフラインアーケードゲームです。プレイ履歴を端末内に保存し、クラウドサービスなしで動作し、広告、アカウント、分析なしのシンプルな距離追跡を使います。",
-      viewDocumentation: "ドキュメントを見る →",
+        "モバイルプラットフォーム向けの軽量オフラインアーケードゲームです。プレイ履歴を端末内に保存し、インターネット接続やクラウドサービスなしで動作し、広告、アカウント、分析なしのシンプルな距離追跡を使います。",
+      timersTitle: "NoBS Timers（近日公開）",
+      timersDescription:
+        "モバイル向けのシンプルな時計ユーティリティ。アラーム、ストップウォッチ、カウントダウン、ポモドーロを端末内に保持し、インターネット接続、広告、アカウント、分析、クラウド同期なしで動作します。",
+      viewDocumentation: "アプリショーケースを見る →",
       supportTitle: "独立開発を支援",
       supportBody:
-        "追跡広告を表示したり、ユーティリティ機能を有料の壁の後ろに置いたりしません。反肥大化ソフトウェアのマニフェストに価値を感じるなら、ミッションを直接支援できます。",
+        "広告を表示せず、データを追跡せず、ユーティリティ機能を有料の壁の後ろに置きません。反肥大化ソフトウェアのマニフェストに価値を感じるなら、私たちの仕事への資金支援を検討してください。",
       paypalTitle: "PayPal / カード",
       paypalInstruction: "PayPal または通常のクレジットカード決済で、ユーティリティアプリの継続開発を支援できます。",
       paypalAction: "PayPal / カードで支援 →",
       binanceInstruction:
-        "モバイルアプリユーザーにとって最も手間の少ない方法です。Binance アプリでスキャンするか、恒久的な Pay ID に直接送信してください。",
+        "Binance を使うユーザーにとって最も手間の少ない方法です。Binance アプリでスキャンするか、恒久的な Pay ID に直接送信してください。",
       copyBinancePay: "Binance Pay ID をコピー",
       binanceAlt: "Binance Pay QR コード",
       nativeCryptoTitle: "ネイティブ暗号資産ネットワーク",
       nativeCryptoInstruction:
-        "外部ソフトウェアやハードウェアウォレットから送信する支援者向けです。資金損失を防ぐため、資産ネットワークを正確に一致させてください。",
+        "外部ソフトウェアやハードウェアウォレットから送信する支援者向けです。<br>資金損失を防ぐため、資産ネットワークを正確に一致させてください。",
       tronTag: "TRX または USDT（Tron ネットワーク TRC20）",
       tronInstruction:
         "この Tron アドレスは、TRC20 ネットワークで送信するネイティブ TRX または Tether USDT のみに使用してください。",
@@ -1709,9 +1723,7 @@ export const translations = {
       copyLitecoin: "Litecoin アドレスをコピー",
       showLtcQr: "LTC QR コードを表示",
       litecoinAlt: "Litecoin QR コード",
-      footer: "© NoBS Apps。邪魔のないネイティブユーティリティ。",
-      timersDescription:
-        "モバイル向けのシンプルな時計ユーティリティ。アラーム、ストップウォッチ、カウントダウン、ポモドーロを端末内に保持し、広告、アカウント、分析、クラウド同期はありません。",
+      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | ローカルファースト代謝トラッカー",
@@ -1986,30 +1998,34 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | शुद्ध उपयोगिता घोषणापत्र",
-      promiseTitle: "NoBS वादा",
+      promiseTitle: "NoBS Apps वादा",
       promiseBody1:
         "आधुनिक ऐप्स भारी और फूले हुए हो गए हैं। बुनियादी टूल ट्रैकिंग कुकीज़, नोटिफिकेशन स्पैम और मजबूर क्लाउड खातों से भरे डेटा-संग्रह उत्पाद बन गए हैं।",
       promiseBody2:
         "<strong>हम ऐसे नेटिव यूटिलिटी टूल बनाते हैं जो ऑफलाइन काम करते हैं, डेटा आपके डिवाइस पर रखते हैं और आपके रास्ते में नहीं आते।</strong>",
       currentUtilitiesTitle: "मौजूदा यूटिलिटी",
       fastingDescription:
-        "मोबाइल प्लेटफॉर्म के लिए इंटरमिटेंट फास्टिंग ट्रैकर। यह फास्टिंग इतिहास आपके डिवाइस पर रखता है, क्लाउड सेवाओं के बिना काम करता है और विज्ञापनों या एनालिटिक्स के बिना सीधा प्रगति ट्रैकिंग देता है।",
+        "मोबाइल प्लेटफॉर्म के लिए इंटरमिटेंट फास्टिंग ट्रैकर। यह फास्टिंग इतिहास आपके डिवाइस पर रखता है, क्लाउड सेवाओं के बिना काम करता है और ads या analytics के बिना optional lightweight streak और star mechanics जोड़ता है।",
+      flappyTitle: "NoBS Flappy (coming soon)",
       flappyDescription:
-        "मोबाइल प्लेटफॉर्म के लिए हल्का offline arcade game। यह run history आपके device पर रखता है, cloud services के बिना काम करता है और ads, accounts या analytics के बिना simple distance tracking देता है।",
-      viewDocumentation: "डॉक्यूमेंटेशन देखें →",
+        "मोबाइल प्लेटफॉर्म के लिए हल्का offline arcade game। यह run history आपके device पर रखता है, internet connection या cloud services के बिना काम करता है और ads, accounts या analytics के बिना simple distance tracking देता है।",
+      timersTitle: "NoBS Timers (coming soon)",
+      timersDescription:
+        "Mobile platforms के लिए simple clock utility। यह alarms, stopwatch, countdowns और pomodoro cycles आपके device पर रखता है और internet connection, ads, accounts, analytics या cloud sync के बिना काम करता है।",
+      viewDocumentation: "App showcase देखें →",
       supportTitle: "स्वतंत्र विकास का समर्थन करें",
       supportBody:
-        "हम ट्रैकिंग विज्ञापन नहीं दिखाते और उपयोगी सुविधाओं को paywall के पीछे बंद नहीं करते। अगर आप हमारे anti-bloat software manifesto को महत्व देते हैं, तो मिशन को सीधे समर्थन दें:",
+        "हम ads नहीं दिखाते, आपका data track नहीं करते और utility features को paywalls के पीछे बंद नहीं करते। अगर आप हमारे anti-bloat software manifesto को महत्व देते हैं, तो हमारे काम को fund करने में मदद करें:",
       paypalTitle: "PayPal / कार्ड",
       paypalInstruction: "PayPal या सामान्य क्रेडिट कार्ड checkout के जरिए utility apps के ongoing development को समर्थन दें:",
       paypalAction: "PayPal / कार्ड से समर्थन दें →",
       binanceInstruction:
-        "मोबाइल ऐप उपयोगकर्ताओं के लिए सबसे कम झंझट वाला विकल्प। अपने Binance App से scan करें या हमारे स्थायी Pay ID पर सीधे भेजें:",
+        "Binance इस्तेमाल करने वाले users के लिए सबसे कम झंझट वाला विकल्प। अपने Binance App से scan करें या हमारे स्थायी Pay ID पर सीधे भेजें:",
       copyBinancePay: "Binance Pay ID कॉपी करें",
       binanceAlt: "Binance Pay QR Code",
       nativeCryptoTitle: "नेटिव क्रिप्टो नेटवर्क",
       nativeCryptoInstruction:
-        "बाहरी software या hardware wallets से भेजने वाले समर्थकों के लिए। धन हानि से बचने के लिए asset network को बिल्कुल match करें।",
+        "बाहरी software या hardware wallets से भेजने वाले समर्थकों के लिए।<br>धन हानि से बचने के लिए asset network को बिल्कुल match करें।",
       tronTag: "TRX या USDT (Tron Network TRC20)",
       tronInstruction: "इस Tron address का उपयोग केवल native TRX या TRC20 network पर भेजे गए Tether USDT के लिए करें।",
       copyTron: "Tron address कॉपी करें",
@@ -2031,9 +2047,7 @@ export const translations = {
       copyLitecoin: "Litecoin address कॉपी करें",
       showLtcQr: "LTC QR Code दिखाएं",
       litecoinAlt: "Litecoin QR Code",
-      footer: "© NoBS Apps. बिना distraction की native utility.",
-      timersDescription:
-        "Mobile platforms के लिए simple clock utility। यह alarms, stopwatch, countdowns और pomodoro cycles आपके device पर रखता है, ads, accounts, analytics या cloud sync के बिना।",
+      footer: "© NoBS Apps. उपयोगी utilities. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | Local-First Metabolic Tracker",
@@ -2306,26 +2320,30 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | 纯实用宣言",
-      promiseTitle: "NoBS 承诺",
+      promiseTitle: "NoBS Apps 承诺",
       promiseBody1: "现代应用越来越臃肿。基础工具被变成了数据收割产品，塞满跟踪 Cookie、通知骚扰和强制云账号。",
       promiseBody2: "<strong>我们构建原生实用工具：离线可用，数据留在你的设备上，并且不打扰你。</strong>",
       currentUtilitiesTitle: "当前工具",
       fastingDescription:
-        "面向移动平台的间歇性断食追踪器。它把断食历史保存在你的设备上，无需云服务，并提供简单的进度追踪，没有广告或分析。",
+        "面向移动平台的间歇性断食追踪器。它把断食历史保存在你的设备上，无需云服务，并提供可选的轻量连续记录和星星机制，没有广告或分析。",
+      flappyTitle: "NoBS Flappy（即将推出）",
       flappyDescription:
-        "面向移动平台的轻量离线街机游戏。它把游玩历史保存在你的设备上，无需云服务，并提供简单的距离追踪，没有广告、账号或分析。",
-      viewDocumentation: "查看文档 →",
+        "面向移动平台的轻量离线街机游戏。它把游玩历史保存在你的设备上，无需互联网连接或云服务，并提供简单的距离追踪，没有广告、账号或分析。",
+      timersTitle: "NoBS Timers（即将推出）",
+      timersDescription:
+        "面向移动平台的简单时钟工具。它把闹钟、秒表、倒计时和番茄钟循环保存在你的设备上，并且无需互联网连接、广告、账号、分析或云同步即可运行。",
+      viewDocumentation: "查看应用展示 →",
       supportTitle: "支持独立开发",
       supportBody:
-        "我们不展示跟踪广告，也不把实用功能锁在付费墙后面。如果你认同我们的反臃肿软件宣言，可以直接支持这项使命：",
+        "我们不展示广告、不跟踪你的数据，也不把实用功能锁在付费墙后面。如果你认同我们的反臃肿软件宣言，可以考虑帮助资助我们的工作：",
       paypalTitle: "PayPal / 银行卡",
       paypalInstruction: "通过 PayPal 或标准信用卡结账支持实用应用的持续开发：",
       paypalAction: "通过 PayPal / 银行卡支持 →",
-      binanceInstruction: "这是移动应用用户最顺手的方式。使用 Binance App 扫描，或直接发送到我们的永久 Pay ID：",
+      binanceInstruction: "这是使用 Binance 的用户最顺手的方式。使用 Binance App 扫描，或直接发送到我们的永久 Pay ID：",
       copyBinancePay: "复制 Binance Pay ID",
       binanceAlt: "Binance Pay 二维码",
       nativeCryptoTitle: "原生加密网络",
-      nativeCryptoInstruction: "适用于从外部软件或硬件钱包发送的支持者。请严格匹配资产网络，以避免资金损失。",
+      nativeCryptoInstruction: "适用于从外部软件或硬件钱包发送的支持者。<br>请严格匹配资产网络，以避免资金损失。",
       tronTag: "TRX 或 USDT（Tron 网络 TRC20）",
       tronInstruction: "这个 Tron 地址仅用于通过 TRC20 网络发送的原生 TRX 或 Tether USDT。",
       copyTron: "复制 Tron 地址",
@@ -2347,9 +2365,7 @@ export const translations = {
       copyLitecoin: "复制 Litecoin 地址",
       showLtcQr: "显示 LTC 二维码",
       litecoinAlt: "Litecoin 二维码",
-      footer: "© NoBS Apps。没有干扰的原生实用工具。",
-      timersDescription:
-        "面向移动平台的简单时钟工具。它把闹钟、秒表、倒计时和番茄钟循环保存在你的设备上，没有广告、账号、分析或云同步。",
+      footer: "© NoBS Apps。实用工具. No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | 本地优先代谢追踪器",
