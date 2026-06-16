@@ -5,10 +5,11 @@
   "type": "module",
   "packageManager": "pnpm@11.6.0",
   "scripts": {
-    "build": "node scripts/build.mjs",
     "check": "biome check .",
+    "build": "node scripts/build.mjs",
     "deploy": "wrangler pages deploy ./build --project-name=nobsapps-portfolio",
-    "release": "pnpm check && pnpm build && pnpm deploy"
+    "release": "pnpm check && pnpm build && pnpm deploy",
+    "dev": "node scripts/dev.mjs"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.16",

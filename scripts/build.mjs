@@ -299,7 +299,7 @@ const buildHeadMetadata = (locale, page, title, description) => {
 const buildControls = (locale, page) => {
   const languageLabel = getTranslation(locale.code, "common.languageLabel");
   const themeSelectorLabel = getTranslation(locale.code, "common.themeSelectorLabel");
-  const themeButtons = ["system", "light", "dark"]
+  const themeButtons = ["light", "dark"]
     .map((theme) => {
       const aria = getTranslation(locale.code, `common.${theme}ThemeAria`);
       const title = getTranslation(locale.code, `common.${theme}ThemeTitle`);

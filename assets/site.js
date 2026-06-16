@@ -5,39 +5,47 @@
   const getTheme = () => {
     try {
       const theme = localStorage.getItem(themeStorageKey);
-      return theme === "light" || theme === "dark" ? theme : "system";
-    } catch (_error) {
-      return "system";
+      if (theme === "light" || theme === "dark") {
+        return theme;
+      }
+    } catch (_error) {}
+
+    if (typeof window.matchMedia !== "function") {
+      return "light";
     }
+
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    }
+
+    if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+      return "light";
+    }
+
+    return "light";
   };
 
   const applyTheme = (theme) => {
-    if (theme === "light" || theme === "dark") {
-      document.documentElement.dataset.theme = theme;
-    } else {
-      document.documentElement.removeAttribute("data-theme");
-    }
+    document.documentElement.dataset.theme = theme;
 
     document.querySelectorAll("[data-theme-option]").forEach((button) => {
       button.setAttribute("aria-pressed", String(button.dataset.themeOption === theme));
     });
   };
 
+  const toggleTheme = () => {
+    const theme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+
+    try {
+      localStorage.setItem(themeStorageKey, theme);
+    } catch (_error) {}
+
+    applyTheme(theme);
+  };
+
   const bindThemeSelector = () => {
-    document.querySelectorAll("[data-theme-option]").forEach((button) => {
-      button.addEventListener("click", () => {
-        const theme = button.dataset.themeOption;
-
-        try {
-          if (theme === "light" || theme === "dark") {
-            localStorage.setItem(themeStorageKey, theme);
-          } else {
-            localStorage.removeItem(themeStorageKey);
-          }
-        } catch (_error) {}
-
-        applyTheme(theme);
-      });
+    document.querySelectorAll(".theme-selector").forEach((selector) => {
+      selector.addEventListener("click", toggleTheme);
     });
   };
 
