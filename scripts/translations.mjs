@@ -24,9 +24,14 @@ export const translations = {
       failed: "Failed",
       privacyBackLink: "← Return to app page",
       privacyLinkTitle: "Privacy Policy",
-      privacyLinkBody:
-        "Read the standalone privacy policy, including local storage, device permissions, and optional support-purchase handling.",
+      privacyLinkBody: "Privacy details are published in the standalone policy page:",
       privacyLink: "Open privacy policy →",
+      downloadTitle: "Download app",
+      downloadBody: "Store listings are not live yet. Use the placeholders below until mobile downloads are ready.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "Coming soon",
+      storeQrLabel: "QR coming soon",
     },
     home: {
       metaTitle: "NoBS Apps | Pure Utility Manifesto",
@@ -176,7 +181,7 @@ export const translations = {
       privacyContactTitle: "6. Policy Contact & Support Hub",
       privacyContactBody:
         'For technical inquiries, feature proposals, privacy questions, or platform feedback, use the public feedback section above or open the GitHub queue directly: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "NoBS Fasting Hub • Local-First Development Architecture",
+      footer: "© NoBS Apps. Useful utilities. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | Local-First Offline Arcade",
@@ -262,7 +267,7 @@ export const translations = {
       privacyContactTitle: "6. Policy Contact & Support Hub",
       privacyContactBody:
         'For technical inquiries, feature proposals, privacy questions, or platform feedback, use the public feedback section above or open the GitHub queue directly: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "NoBS Flappy Hub • Local-First Offline Arcade",
+      footer: "© NoBS Apps. Useful utilities. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | Local-First Clock Utilities",
@@ -333,7 +338,7 @@ export const translations = {
       privacyContactTitle: "6. Policy Contact & Support Hub",
       privacyContactBody:
         'For technical inquiries, feature proposals, privacy questions, or platform feedback, use the public feedback section above or open the GitHub queue directly: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • Local-First Clock Utilities",
+      footer: "© NoBS Apps. Useful utilities. No bullshit.",
     },
   },
   es: {
@@ -350,9 +355,15 @@ export const translations = {
       failed: "Error",
       privacyBackLink: "← Volver a la página de la app",
       privacyLinkTitle: "Política de privacidad",
-      privacyLinkBody:
-        "Lee la política de privacidad independiente, incluida la información sobre almacenamiento local, permisos del dispositivo y compras de apoyo opcionales.",
+      privacyLinkBody: "Los detalles de privacidad están publicados en la página de política independiente:",
       privacyLink: "Abrir política de privacidad →",
+      downloadTitle: "Descargar app",
+      downloadBody:
+        "Las fichas de las tiendas todavía no están disponibles. Usa estos marcadores hasta que las descargas móviles estén listas.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "Próximamente",
+      storeQrLabel: "QR próximamente",
     },
     home: {
       metaTitle: "NoBS Apps | Manifiesto de utilidad pura",
@@ -504,7 +515,7 @@ export const translations = {
       privacyContactTitle: "6. Contacto de política y centro de soporte",
       privacyContactBody:
         'Para consultas técnicas, propuestas de funciones, preguntas de privacidad o comentarios de plataforma, usa la sección pública de feedback anterior o abre directamente la cola de GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "Centro NoBS Fasting • Arquitectura de desarrollo local-first",
+      footer: "© NoBS Apps. Utilidades útiles. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | Arcade offline local-first",
@@ -591,7 +602,7 @@ export const translations = {
       privacyContactTitle: "6. Contacto de política y centro de soporte",
       privacyContactBody:
         'Para consultas técnicas, propuestas de funciones, preguntas de privacidad o comentarios de plataforma, usa la sección pública de feedback anterior o abre directamente la cola de GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "Centro NoBS Flappy • Arcade offline local-first",
+      footer: "© NoBS Apps. Utilidades útiles. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | Utilidades de reloj local-first",
@@ -662,7 +673,7 @@ export const translations = {
       privacyContactTitle: "6. Contacto de política y centro de soporte",
       privacyContactBody:
         'Para consultas técnicas, propuestas de funciones, preguntas de privacidad o comentarios de plataforma, usa la sección pública de feedback anterior o abre directamente la cola de GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • Utilidades de reloj local-first",
+      footer: "© NoBS Apps. Utilidades útiles. No bullshit.",
     },
   },
   pt: {
@@ -679,9 +690,15 @@ export const translations = {
       failed: "Falhou",
       privacyBackLink: "← Voltar à página do app",
       privacyLinkTitle: "Política de privacidade",
-      privacyLinkBody:
-        "Leia a política de privacidade independente, incluindo armazenamento local, permissões do dispositivo e tratamento de compras opcionais de apoio.",
+      privacyLinkBody: "Os detalhes de privacidade estão publicados na página de política independente:",
       privacyLink: "Abrir política de privacidade →",
+      downloadTitle: "Baixar app",
+      downloadBody:
+        "As páginas das lojas ainda não estão disponíveis. Use estes marcadores até que os downloads móveis estejam prontos.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "Em breve",
+      storeQrLabel: "QR em breve",
     },
     home: {
       metaTitle: "NoBS Apps | Manifesto de utilidade pura",
@@ -832,7 +849,7 @@ export const translations = {
       privacyContactTitle: "6. Contato da política e central de suporte",
       privacyContactBody:
         'Para dúvidas técnicas, propostas de recursos, perguntas de privacidade ou feedback de plataforma, use a seção pública de feedback acima ou abra diretamente a fila do GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "Hub NoBS Fasting • Arquitetura de desenvolvimento local-first",
+      footer: "© NoBS Apps. Utilitários úteis. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | Arcade offline local-first",
@@ -918,7 +935,7 @@ export const translations = {
       privacyContactTitle: "6. Contato da política e central de suporte",
       privacyContactBody:
         'Para dúvidas técnicas, propostas de recursos, perguntas de privacidade ou feedback de plataforma, use a seção pública de feedback acima ou abra diretamente a fila do GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "Hub NoBS Flappy • Arcade offline local-first",
+      footer: "© NoBS Apps. Utilitários úteis. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | Utilitários de relógio local-first",
@@ -989,7 +1006,7 @@ export const translations = {
       privacyContactTitle: "6. Contato da política e central de suporte",
       privacyContactBody:
         'Para dúvidas técnicas, propostas de recursos, perguntas de privacidade ou feedback de plataforma, use a seção pública de feedback acima ou abra diretamente a fila do GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • Utilitários de relógio local-first",
+      footer: "© NoBS Apps. Utilitários úteis. No bullshit.",
     },
   },
   fr: {
@@ -1006,9 +1023,15 @@ export const translations = {
       failed: "Échec",
       privacyBackLink: "← Retour à la page de l’app",
       privacyLinkTitle: "Politique de confidentialité",
-      privacyLinkBody:
-        "Lisez la politique de confidentialité autonome, notamment le stockage local, les autorisations de l’appareil et le traitement des achats de soutien optionnels.",
+      privacyLinkBody: "Les détails de confidentialité sont publiés sur la page de politique dédiée :",
       privacyLink: "Ouvrir la politique de confidentialité →",
+      downloadTitle: "Télécharger l'app",
+      downloadBody:
+        "Les fiches des stores ne sont pas encore disponibles. Utilisez ces emplacements jusqu'à ce que les téléchargements mobiles soient prêts.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "Bientôt disponible",
+      storeQrLabel: "QR bientôt disponible",
     },
     home: {
       metaTitle: "NoBS Apps | Manifeste de l'utilité pure",
@@ -1161,7 +1184,7 @@ export const translations = {
       privacyContactTitle: "6. Contact de politique et hub support",
       privacyContactBody:
         'Pour les questions techniques, propositions de fonctions, questions de confidentialité ou retours de plateforme, utilisez la section publique de feedback ci-dessus ou ouvrez directement la file GitHub : <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "Hub NoBS Fasting • Architecture de développement local-first",
+      footer: "© NoBS Apps. Utilitaires utiles. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | Arcade hors ligne local-first",
@@ -1249,7 +1272,7 @@ export const translations = {
       privacyContactTitle: "6. Contact de politique et hub support",
       privacyContactBody:
         'Pour les questions techniques, propositions de fonctions, questions de confidentialité ou retours de plateforme, utilisez la section publique de feedback ci-dessus ou ouvrez directement la file GitHub : <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "Hub NoBS Flappy • Arcade hors ligne local-first",
+      footer: "© NoBS Apps. Utilitaires utiles. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | Utilitaires d’horloge local-first",
@@ -1320,7 +1343,7 @@ export const translations = {
       privacyContactTitle: "6. Contact politique et centre de support",
       privacyContactBody:
         'Pour les questions techniques, propositions, questions de confidentialité ou retours de plateforme, utilisez la section publique ci-dessus ou ouvrez directement la file GitHub : <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • Utilitaires d’horloge local-first",
+      footer: "© NoBS Apps. Utilitaires utiles. No bullshit.",
     },
   },
   de: {
@@ -1337,9 +1360,15 @@ export const translations = {
       failed: "Fehler",
       privacyBackLink: "← Zur App-Seite zurückkehren",
       privacyLinkTitle: "Datenschutzrichtlinie",
-      privacyLinkBody:
-        "Lies die eigenständige Datenschutzrichtlinie mit Informationen zu lokaler Speicherung, Geräteberechtigungen und optionalen Support-Käufen.",
+      privacyLinkBody: "Die Datenschutzdetails stehen auf der eigenständigen Richtlinienseite:",
       privacyLink: "Datenschutzrichtlinie öffnen →",
+      downloadTitle: "App herunterladen",
+      downloadBody:
+        "Die Store-Einträge sind noch nicht live. Nutze diese Platzhalter, bis die mobilen Downloads bereit sind.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "Demnächst",
+      storeQrLabel: "QR demnächst",
     },
     home: {
       metaTitle: "NoBS Apps | Manifest für reine Nützlichkeit",
@@ -1492,7 +1521,7 @@ export const translations = {
       privacyContactTitle: "6. Kontakt zur Richtlinie und Support-Hub",
       privacyContactBody:
         'Für technische Anfragen, Funktionsvorschläge, Datenschutzfragen oder Plattform-Feedback nutze den öffentlichen Feedback-Bereich oben oder öffne direkt die GitHub-Warteschlange: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "NoBS Fasting Hub • Local-First Entwicklungsarchitektur",
+      footer: "© NoBS Apps. Nützliche Werkzeuge. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | Local-First Offline-Arcade",
@@ -1579,7 +1608,7 @@ export const translations = {
       privacyContactTitle: "6. Kontakt zur Richtlinie und Support-Hub",
       privacyContactBody:
         'Für technische Anfragen, Funktionsvorschläge, Datenschutzfragen oder Plattform-Feedback nutze den öffentlichen Feedback-Bereich oben oder öffne direkt die GitHub-Warteschlange: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "NoBS Flappy Hub • Local-First Offline-Arcade",
+      footer: "© NoBS Apps. Nützliche Werkzeuge. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | Local-First Uhr-Werkzeuge",
@@ -1650,7 +1679,7 @@ export const translations = {
       privacyContactTitle: "6. Kontakt und Support-Hub",
       privacyContactBody:
         'Für technische Fragen, Feature-Vorschläge, Datenschutzfragen oder Plattform-Feedback nutze den öffentlichen Feedback-Bereich oben oder öffne direkt die GitHub-Queue: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • Local-First Uhr-Werkzeuge",
+      footer: "© NoBS Apps. Nützliche Werkzeuge. No bullshit.",
     },
   },
   ja: {
@@ -1667,9 +1696,15 @@ export const translations = {
       failed: "失敗",
       privacyBackLink: "← アプリページに戻る",
       privacyLinkTitle: "プライバシーポリシー",
-      privacyLinkBody:
-        "ローカル保存、デバイス権限、任意のサポート購入の扱いを含む、独立したプライバシーポリシーを確認できます。",
+      privacyLinkBody: "プライバシーの詳細は専用ポリシーページで公開しています。",
       privacyLink: "プライバシーポリシーを開く →",
+      downloadTitle: "アプリをダウンロード",
+      downloadBody:
+        "ストア掲載はまだ公開されていません。モバイルダウンロードの準備ができるまで、このプレースホルダーを使用します。",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "近日公開",
+      storeQrLabel: "QR 近日公開",
     },
     home: {
       metaTitle: "NoBS Apps | 純粋な実用性のマニフェスト",
@@ -1819,7 +1854,7 @@ export const translations = {
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
         '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックについては、上記の公開フィードバックセクションを使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "NoBS Fasting Hub • ローカルファースト開発アーキテクチャ",
+      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | ローカルファーストのオフラインアーケード",
@@ -1906,7 +1941,7 @@ export const translations = {
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
         '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックについては、上記の公開フィードバックセクションを使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "NoBS Flappy Hub • ローカルファーストのオフラインアーケード",
+      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | ローカルファースト時計ユーティリティ",
@@ -1976,7 +2011,7 @@ export const translations = {
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
         '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックは、上の公開フィードバック欄を使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • ローカルファースト時計ユーティリティ",
+      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
     },
   },
   hi: {
@@ -1993,8 +2028,14 @@ export const translations = {
       failed: "विफल",
       privacyBackLink: "← ऐप पेज पर लौटें",
       privacyLinkTitle: "Privacy Policy",
-      privacyLinkBody: "स्थानीय स्टोरेज, डिवाइस अनुमतियों और वैकल्पिक समर्थन खरीदारी के प्रबंधन सहित अलग privacy policy पढ़ें.",
+      privacyLinkBody: "Privacy details अलग policy page में published हैं:",
       privacyLink: "Privacy policy खोलें →",
+      downloadTitle: "App डाउनलोड करें",
+      downloadBody: "Store listings अभी live नहीं हैं। Mobile downloads ready होने तक ये placeholders इस्तेमाल करें.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "जल्द आ रहा है",
+      storeQrLabel: "QR जल्द",
     },
     home: {
       metaTitle: "NoBS Apps | शुद्ध उपयोगिता घोषणापत्र",
@@ -2143,7 +2184,7 @@ export const translations = {
       privacyContactTitle: "6. Policy Contact और Support Hub",
       privacyContactBody:
         'Technical inquiries, feature proposals, privacy questions या platform feedback के लिए ऊपर के public feedback section का उपयोग करें या GitHub queue directly खोलें: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "NoBS Fasting Hub • Local-First Development Architecture",
+      footer: "© NoBS Apps. उपयोगी utilities. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | Local-First Offline Arcade",
@@ -2228,7 +2269,7 @@ export const translations = {
       privacyContactTitle: "6. Policy Contact और Support Hub",
       privacyContactBody:
         'Technical inquiries, feature proposals, privacy questions या platform feedback के लिए ऊपर के public feedback section का उपयोग करें या GitHub queue directly खोलें: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "NoBS Flappy Hub • Local-First Offline Arcade",
+      footer: "© NoBS Apps. उपयोगी utilities. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | Local-First Clock Utilities",
@@ -2298,7 +2339,7 @@ export const translations = {
       privacyContactTitle: "6. Policy Contact और Support Hub",
       privacyContactBody:
         'Technical inquiries, feature proposals, privacy questions या platform feedback के लिए ऊपर के public feedback section का उपयोग करें या GitHub queue directly खोलें: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • Local-First Clock Utilities",
+      footer: "© NoBS Apps. उपयोगी utilities. No bullshit.",
     },
   },
   "zh-Hans": {
@@ -2315,8 +2356,14 @@ export const translations = {
       failed: "失败",
       privacyBackLink: "← 返回应用页面",
       privacyLinkTitle: "隐私政策",
-      privacyLinkBody: "阅读独立隐私政策，了解本地存储、设备权限以及可选支持购买的处理方式。",
+      privacyLinkBody: "隐私详情发布在独立政策页面：",
       privacyLink: "打开隐私政策 →",
+      downloadTitle: "下载应用",
+      downloadBody: "商店页面尚未上线。移动下载准备好之前，请使用这些占位内容。",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "即将推出",
+      storeQrLabel: "二维码即将推出",
     },
     home: {
       metaTitle: "NoBS Apps | 纯实用宣言",
@@ -2455,7 +2502,7 @@ export const translations = {
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
         '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "NoBS Fasting Hub • 本地优先开发架构",
+      footer: "© NoBS Apps。实用工具. No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | 本地优先离线街机",
@@ -2533,7 +2580,7 @@ export const translations = {
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
         '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "NoBS Flappy Hub • 本地优先离线街机",
+      footer: "© NoBS Apps。实用工具. No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | 本地优先时钟工具",
@@ -2596,7 +2643,7 @@ export const translations = {
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
         '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
-      footer: "NoBS Timers Hub • 本地优先时钟工具",
+      footer: "© NoBS Apps。实用工具. No bullshit.",
     },
   },
 };
