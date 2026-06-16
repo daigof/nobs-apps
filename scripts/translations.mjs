@@ -337,7 +337,7 @@ export const translations = {
         "Because NoBS Timers does not collect, capture, or transmit any digital information from any user device whatsoever, it is designed to avoid collecting children's personal information.",
       privacyContactTitle: "6. Policy Contact & Support Hub",
       privacyContactBody:
-        'For technical inquiries, feature proposals, privacy questions, or platform feedback, use the public feedback section above or open the GitHub queue directly: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        'For technical inquiries, feature proposals, privacy questions, or platform feedback, use the public feedback section above or open the GitHub queue directly: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps. Useful utilities. No bullshit.",
     },
   },
@@ -672,7 +672,7 @@ export const translations = {
         "Como NoBS Timers no recopila, captura ni transmite información digital de ningún dispositivo de usuario, está diseñada para evitar recopilar información personal de menores.",
       privacyContactTitle: "6. Contacto de política y centro de soporte",
       privacyContactBody:
-        'Para consultas técnicas, propuestas de funciones, preguntas de privacidad o comentarios de plataforma, usa la sección pública de feedback anterior o abre directamente la cola de GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        'Para consultas técnicas, propuestas de funciones, preguntas de privacidad o comentarios de plataforma, usa la sección pública de feedback anterior o abre directamente la cola de GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps. Utilidades útiles. No bullshit.",
     },
   },
@@ -1005,7 +1005,7 @@ export const translations = {
         "Como NoBS Timers não coleta, captura ou transmite nenhuma informação digital de qualquer dispositivo de usuário, ele é projetado para evitar a coleta de informações pessoais de crianças.",
       privacyContactTitle: "6. Contato da política e central de suporte",
       privacyContactBody:
-        'Para dúvidas técnicas, propostas de recursos, perguntas de privacidade ou feedback de plataforma, use a seção pública de feedback acima ou abra diretamente a fila do GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        'Para dúvidas técnicas, propostas de recursos, perguntas de privacidade ou feedback de plataforma, use a seção pública de feedback acima ou abra diretamente a fila do GitHub: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps. Utilitários úteis. No bullshit.",
     },
   },
@@ -1342,7 +1342,7 @@ export const translations = {
         "Comme NoBS Timers ne collecte, capture ni transmet aucune information numérique depuis un appareil utilisateur, l’app est conçue pour éviter de collecter les informations personnelles des enfants.",
       privacyContactTitle: "6. Contact politique et centre de support",
       privacyContactBody:
-        'Pour les questions techniques, propositions, questions de confidentialité ou retours de plateforme, utilisez la section publique ci-dessus ou ouvrez directement la file GitHub : <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        'Pour les questions techniques, propositions, questions de confidentialité ou retours de plateforme, utilisez la section publique ci-dessus ou ouvrez directement la file GitHub : <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps. Utilitaires utiles. No bullshit.",
     },
   },
@@ -1678,7 +1678,7 @@ export const translations = {
         "Da NoBS Timers keinerlei digitale Informationen von Nutzergeräten sammelt, erfasst oder überträgt, ist es so gestaltet, dass keine personenbezogenen Informationen von Kindern gesammelt werden.",
       privacyContactTitle: "6. Kontakt und Support-Hub",
       privacyContactBody:
-        'Für technische Fragen, Feature-Vorschläge, Datenschutzfragen oder Plattform-Feedback nutze den öffentlichen Feedback-Bereich oben oder öffne direkt die GitHub-Queue: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        'Für technische Fragen, Feature-Vorschläge, Datenschutzfragen oder Plattform-Feedback nutze den öffentlichen Feedback-Bereich oben oder öffne direkt die GitHub-Queue: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps. Nützliche Werkzeuge. No bullshit.",
     },
   },
@@ -2010,7 +2010,7 @@ export const translations = {
         "NoBS Timers はユーザー端末からデジタル情報を収集、取得、送信しないため、子どもの個人情報を収集しないよう設計されています。",
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
-        '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックは、上の公開フィードバック欄を使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックは、上の公開フィードバック欄を使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
     },
   },
@@ -2338,7 +2338,7 @@ export const translations = {
         "क्योंकि NoBS Timers किसी भी user device से कोई digital information collect, capture या transmit नहीं करता, इसे children's personal information collect करने से बचने के लिए design किया गया है।",
       privacyContactTitle: "6. Policy Contact और Support Hub",
       privacyContactBody:
-        'Technical inquiries, feature proposals, privacy questions या platform feedback के लिए ऊपर के public feedback section का उपयोग करें या GitHub queue directly खोलें: <a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        'Technical inquiries, feature proposals, privacy questions या platform feedback के लिए ऊपर के public feedback section का उपयोग करें या GitHub queue directly खोलें: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps. उपयोगी utilities. No bullshit.",
     },
   },
@@ -2642,7 +2642,7 @@ export const translations = {
         "由于 NoBS Timers 不会从任何用户设备收集、捕获或传输任何数字信息，因此它被设计为避免收集儿童个人信息。",
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
-        '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new</a>',
+        '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
       footer: "© NoBS Apps。实用工具. No bullshit.",
     },
   },

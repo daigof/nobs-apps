@@ -12,14 +12,22 @@ Welcome to the central feedback and coordination hub for **NoBS Apps**. This rep
 ## 📱 Current Apps
 
 ### 1. NoBS Fasting App
-A native, lightweight intermittent fasting tracker with local persistence. It keeps fasting history on your device, works without cloud services, and uses plain progress tracking without ads or analytics.
+A native, lightweight intermittent fasting tracker with local persistence. It keeps fasting history on your device, works without cloud services, and uses optional lightweight streak and star mechanics without ads or analytics.
 *   **Status:** In Development 🛠️
+*   **Showcase:** [NoBS Fasting app showcase](https://nobsapps.co/fasting/)
 *   **Feedback & Bugs:** Send fasting feedback through the NoBS Apps issue form: [NoBS Fasting feedback](https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml)
 
-### 2. NoBS Flappy App
-A native, lightweight offline arcade game with local run history. It keeps distance records on your device, works without cloud services, and avoids ads, accounts, analytics, and cloud leaderboards.
-*   **Status:** In Development 🛠️
+### 2. NoBS Flappy App (Coming Soon)
+A native, lightweight offline arcade game with local run history. It keeps distance records on your device, works without an internet connection or cloud services, and avoids ads, accounts, analytics, and cloud leaderboards.
+*   **Status:** Coming Soon
+*   **Showcase:** [NoBS Flappy app showcase](https://nobsapps.co/flappy/)
 *   **Feedback & Bugs:** Send Flappy feedback through the NoBS Apps issue form: [NoBS Flappy feedback](https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml)
+
+### 3. NoBS Timers App (Coming Soon)
+A native, lightweight clock utility for alarms, stopwatch, countdowns, and pomodoro cycles. It keeps timing tools local to your device, works without an internet connection or cloud services, and avoids ads, accounts, analytics, and cloud sync.
+*   **Status:** Coming Soon
+*   **Showcase:** [NoBS Timers app showcase](https://nobsapps.co/timers/)
+*   **Feedback & Bugs:** Send Timers feedback through the NoBS Apps issue form: [NoBS Timers feedback](https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml)
 
 ---
 
@@ -30,31 +38,6 @@ We build tools around real daily needs. If there is a utility app you use that h
 1. Open the [new app request form](https://github.com/daigof/nobs-apps/issues/new?template=new_app_request.yml).
 2. Describe the core utility you need.
 3. Tell us what bloat, tracking, or forced account flow you want removed.
-
----
-
-## 🛠️ Development
-
-Install tooling with pnpm:
-
-```sh
-pnpm install
-```
-
-Run Biome checks:
-
-```sh
-pnpm check
-pnpm lint
-```
-
-Build the static production folder for Cloudflare Pages drag-and-drop uploads:
-
-```sh
-pnpm build
-```
-
-The generated `build/` folder is deployable and intentionally ignored by git.
 
 ---
 

@@ -1,0 +1,35 @@
+name: "NoBS Timers Feedback"
+description: "Report a bug, request a change, or share platform feedback for NoBS Timers"
+title: "[NoBS Timers]: "
+labels: ["feedback", "triage", "nobs-timers"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check if a similar NoBS Timers issue already exists before submitting.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Operating System / Platform"
+      description: "Select the device ecosystem where this happened or where the request applies."
+      options:
+        - "Android"
+        - "iOS"
+        - "Other / not platform-specific"
+    validations:
+      required: false
+  - type: input
+    id: device-model
+    attributes:
+      label: "Device Model"
+      placeholder: "e.g., Samsung Galaxy S23 / iPhone 13"
+    validations:
+      required: false
+  - type: textarea
+    id: message
+    attributes:
+      label: "What is happening or what should change?"
+      description: "For bugs, describe what the app is doing wrong and what should happen instead. For requests, describe the desired behavior."
+      placeholder: "The countdown alert does not fire after the app is backgrounded..."
+    validations:
+      required: true
