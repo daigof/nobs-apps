@@ -7,7 +7,7 @@
   "scripts": {
     "check": "biome check .",
     "build": "node scripts/build.mjs",
-    "deploy": "wrangler pages deploy ./build --project-name=nobsapps-portfolio",
+    "deploy": "wrangler pages deploy ./build --project-name=nobs-apps",
     "release": "pnpm check && pnpm build && pnpm deploy",
     "dev": "node scripts/dev.mjs"
   },
