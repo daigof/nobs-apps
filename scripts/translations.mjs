@@ -7,7 +7,7 @@ export const supportedLanguages = [
   ["ja", "日本語"],
   ["hi", "हिन्दी"],
   ["zh-Hans", "简体中文"],
-  ["ko", "한국어"]
+  ["ko", "한국어"],
 ];
 
 export const translations = {
@@ -373,7 +373,7 @@ export const translations = {
         "Las apps modernas están infladas. Herramientas básicas se convirtieron en productos de extracción de datos con cookies de rastreo, spam de notificaciones y cuentas en la nube obligatorias.",
       promiseBody2:
         "<strong>Creamos utilidades nativas que funcionan sin conexión, conservan tus datos en tu dispositivo y no se interponen.</strong>",
-      currentUtilitiesTitle: "Apps",
+      currentUtilitiesTitle: "Apps actuales",
       fastingDescription:
         "Un rastreador de ayuno intermitente para plataformas móviles. Mantiene el historial de ayunos en tu dispositivo, funciona sin servicios en la nube y agrega mecánicas opcionales y ligeras de rachas y estrellas, sin anuncios ni analíticas.",
       flappyTitle: "NoBS Flappy (próximamente)",
@@ -382,7 +382,7 @@ export const translations = {
       timersTitle: "NoBS Timers (próximamente)",
       timersDescription:
         "Una utilidad de reloj simple para plataformas móviles. Mantiene alarmas, cronómetro, cuentas regresivas y ciclos pomodoro en tu dispositivo, y funciona sin conexión a internet, anuncios, cuentas, analíticas ni sincronización en la nube.",
-      viewDocumentation: "Ver showcase de la app →",
+      viewDocumentation: "Ver presentación de la app →",
       supportTitle: "Apoya el desarrollo independiente",
       supportBody:
         "No mostramos anuncios, no rastreamos tus datos ni bloqueamos funciones útiles detrás de muros de pago. Si valoras nuestro manifiesto contra el software inflado, considera ayudar a financiar nuestro trabajo:",
@@ -396,7 +396,7 @@ export const translations = {
       binanceAlt: "Código QR de Binance Pay",
       nativeCryptoTitle: "Redes cripto",
       nativeCryptoInstruction:
-        "Para colaboradores que envían desde software externo o hardware wallets.<br>Haz coincidir exactamente la red crypto para evitar pérdida de fondos.",
+        "Para colaboradores que envían desde software externo o hardware wallets.<br>Haz coincidir exactamente la red cripto para evitar pérdida de fondos.",
       tronTag: "TRX o USDT (red Tron TRC20)",
       tronInstruction: "Usa esta misma dirección de Tron solo para TRX nativo o Tether USDT enviado por la red TRC20.",
       copyTron: "Copiar dirección de Tron",
@@ -703,7 +703,7 @@ export const translations = {
     },
     home: {
       metaTitle: "NoBS Apps | Manifesto de utilidade pura",
-      promiseTitle: "A promessa NoBS Apps",
+      promiseTitle: "A promessa da NoBS Apps",
       promiseBody1:
         "Apps modernos estão inchados. Ferramentas básicas viraram produtos de coleta de dados cheios de cookies de rastreamento, spam de notificações e contas obrigatórias na nuvem.",
       promiseBody2:
@@ -717,7 +717,7 @@ export const translations = {
       timersTitle: "NoBS Timers (em breve)",
       timersDescription:
         "Um utilitário simples de relógio para plataformas móveis. Ele mantém alarmes, cronômetro, contagens regressivas e ciclos pomodoro no seu dispositivo e funciona sem conexão com a internet, anúncios, contas, análises ou sincronização em nuvem.",
-      viewDocumentation: "Ver showcase do app →",
+      viewDocumentation: "Ver apresentação do app →",
       supportTitle: "Apoie o desenvolvimento independente",
       supportBody:
         "Não exibimos anúncios, não rastreamos seus dados nem bloqueamos recursos úteis atrás de paywalls. Se você valoriza nosso manifesto contra software inchado, considere ajudar a financiar nosso trabalho:",
@@ -1041,7 +1041,7 @@ export const translations = {
         "Les apps modernes sont gonflées. Des outils basiques sont devenus des produits de collecte de données remplis de cookies de suivi, de spam de notifications et de comptes cloud imposés.",
       promiseBody2:
         "<strong>Nous créons des utilitaires natifs qui fonctionnent hors ligne, gardent vos données sur votre appareil et restent à leur place.</strong>",
-      currentUtilitiesTitle: "Apps actuels",
+      currentUtilitiesTitle: "Apps actuelles",
       fastingDescription:
         "Un suivi de jeûne intermittent pour plateformes mobiles. Il garde l'historique des jeûnes sur votre appareil, fonctionne sans services cloud et ajoute des mécaniques optionnelles et légères de séries et d'étoiles, sans pubs ni analyses.",
       flappyTitle: "NoBS Flappy (bientôt disponible)",
@@ -1050,7 +1050,7 @@ export const translations = {
       timersTitle: "NoBS Timers (bientôt disponible)",
       timersDescription:
         "Un utilitaire d'horloge simple pour plateformes mobiles. Il garde alarmes, chronomètre, comptes à rebours et cycles pomodoro sur votre appareil, et fonctionne sans connexion internet, publicités, comptes, analyses ni synchronisation cloud.",
-      viewDocumentation: "Voir le showcase de l'app →",
+      viewDocumentation: "Voir la présentation de l'app →",
       supportTitle: "Soutenir le développement indépendant",
       supportBody:
         "Nous n'affichons pas de publicités, ne suivons pas vos données et ne bloquons pas les fonctions utiles derrière des paywalls. Si vous appréciez notre manifeste anti-bloat, vous pouvez aider à financer notre travail :",
@@ -1196,7 +1196,7 @@ export const translations = {
       supportLink: "Ouvrir les options de support NoBS Apps →",
       gameplayTitle: "Jeu d'arcade hors ligne",
       gameplayIntro: "NoBS Flappy garde une boucle de jeu simple, lisible et locale :",
-      controlTime: "Tap / clic",
+      controlTime: "Tapoter / clic",
       controlTitle: "Battre des ailes",
       controlBody:
         "Touchez n'importe où sur la surface de jeu pour monter. Le monde défile automatiquement, donc l'objectif est de garder l'oiseau loin des dangers.",
@@ -1540,7 +1540,7 @@ export const translations = {
       distanceTime: "Distanz",
       distanceTitle: "Distanz, keine Konten",
       distanceBody:
-        'Das Spiel nutzt keine Punkte, sozialen Scores oder Online-Bestenlisten. Während des Spiels zeigt ein ruhiges HUD unten rechts "Zurueckgelegte Distanz:" und abgeschlossene Läufe melden die Distanz je nach Einstellung in Kilometern oder Meilen.',
+        'Das Spiel nutzt keine Punkte, sozialen Scores oder Online-Bestenlisten. Während des Spiels zeigt ein ruhiges HUD unten rechts "Zurückgelegte Distanz:" und abgeschlossene Läufe melden die Distanz je nach Einstellung in Kilometern oder Meilen.',
       offlineTime: "Offline",
       offlineTitle: "Lokale Läufe",
       offlineBody:
@@ -1662,7 +1662,7 @@ export const translations = {
         "Diese Datenschutzrichtlinie beschreibt die Datenschutzpraktiken der mobilen Anwendung <strong>NoBS Timers</strong>, entwickelt und veröffentlicht von <strong>NoBS Apps</strong> für unterstützte mobile Plattformen.",
       privacyDataTitle: "1. Erklärung zu Datenerhebung und Übertragung",
       privacyDataBody1:
-        "<strong>NoBS Timers arbeitet mit einer strikten Zero-Telemetry, Local-First Architektur.</strong> Die Anwendung sammelt, erfasst, überwacht, interceptet oder überträgt keine persönlichen, sensiblen, zeitbezogenen oder geräteidentifizierbaren Informationen an externe Cloud-Server, Datenbanken oder Dritte.",
+        "<strong>NoBS Timers arbeitet mit einer strikten Zero-Telemetry- und Local-First-Architektur.</strong> Die Anwendung sammelt, erfasst, überwacht, fängt oder überträgt keine persönlichen, sensiblen, zeitbezogenen oder geräteidentifizierbaren Informationen an externe Cloud-Server, Datenbanken oder Dritte.",
       privacyDataBody2:
         "Wir verwenden keine Analyse-SDKs von Drittanbietern, Werbe-SDKs, Crash-Tracking-Module, Kontosysteme, Cloud-Sync oder Identitätswerkzeuge. Für Wecker, Stoppuhr, Countdown, Pomodoro, Einstellungen, Support-Anzeige oder lokale Hinweisplanung ist keine Netzwerkanfrage erforderlich.",
       privacyStorageTitle: "2. Lokaler Speicherbereich",
@@ -1701,7 +1701,7 @@ export const translations = {
       privacyLink: "プライバシーポリシーを開く →",
       downloadTitle: "アプリをダウンロード",
       downloadBody:
-        "ストア掲載はまだ公開されていません。モバイルダウンロードの準備ができるまで、このプレースホルダーを使用します。",
+        "ストア掲載はまだ公開されていません。モバイルダウンロードの準備ができるまで、このプレースホルダーを使用してください。",
       googlePlayTitle: "Google Play Store",
       appleStoreTitle: "Apple App Store",
       storeComingSoon: "近日公開",
@@ -1759,7 +1759,7 @@ export const translations = {
       copyLitecoin: "Litecoin アドレスをコピー",
       showLtcQr: "LTC QR コードを表示",
       litecoinAlt: "Litecoin QR コード",
-      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
+      footer: "© NoBS Apps。便利なユーティリティ。No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | ローカルファースト代謝トラッカー",
@@ -1855,7 +1855,7 @@ export const translations = {
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
         '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックについては、上記の公開フィードバックセクションを使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
+      footer: "© NoBS Apps。便利なユーティリティ。No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | ローカルファーストのオフラインアーケード",
@@ -1942,7 +1942,7 @@ export const translations = {
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
         '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックについては、上記の公開フィードバックセクションを使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
+      footer: "© NoBS Apps。便利なユーティリティ。No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | ローカルファースト時計ユーティリティ",
@@ -2012,7 +2012,7 @@ export const translations = {
       privacyContactTitle: "6. ポリシー連絡先とサポートハブ",
       privacyContactBody:
         '技術的な問い合わせ、機能提案、プライバシーに関する質問、プラットフォームフィードバックは、上の公開フィードバック欄を使うか、GitHub キューを直接開いてください: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
-      footer: "© NoBS Apps。便利なユーティリティ. No bullshit.",
+      footer: "© NoBS Apps。便利なユーティリティ。No bullshit.",
     },
   },
   hi: {
@@ -2054,7 +2054,7 @@ export const translations = {
       timersTitle: "NoBS Timers (coming soon)",
       timersDescription:
         "Mobile platforms के लिए simple clock utility। यह alarms, stopwatch, countdowns और pomodoro cycles आपके device पर रखता है और internet connection, ads, accounts, analytics या cloud sync के बिना काम करता है।",
-      viewDocumentation: "App showcase देखें →",
+      viewDocumentation: "ऐप परिचय देखें →",
       supportTitle: "स्वतंत्र विकास का समर्थन करें",
       supportBody:
         "हम ads नहीं दिखाते, आपका data track नहीं करते और utility features को paywalls के पीछे बंद नहीं करते। अगर आप हमारे anti-bloat software manifesto को महत्व देते हैं, तो हमारे काम को fund करने में मदद करें:",
@@ -2413,7 +2413,7 @@ export const translations = {
       copyLitecoin: "复制 Litecoin 地址",
       showLtcQr: "显示 LTC 二维码",
       litecoinAlt: "Litecoin 二维码",
-      footer: "© NoBS Apps。实用工具. No bullshit.",
+      footer: "© NoBS Apps。实用工具。No bullshit.",
     },
     fasting: {
       metaTitle: "NoBS Fasting | 本地优先代谢追踪器",
@@ -2503,7 +2503,7 @@ export const translations = {
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
         '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
-      footer: "© NoBS Apps。实用工具. No bullshit.",
+      footer: "© NoBS Apps。实用工具。No bullshit.",
     },
     flappy: {
       metaTitle: "NoBS Flappy | 本地优先离线街机",
@@ -2581,7 +2581,7 @@ export const translations = {
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
         '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
-      footer: "© NoBS Apps。实用工具. No bullshit.",
+      footer: "© NoBS Apps。实用工具。No bullshit.",
     },
     timers: {
       metaTitle: "NoBS Timers | 本地优先时钟工具",
@@ -2644,7 +2644,331 @@ export const translations = {
       privacyContactTitle: "6. 政策联系与支持中心",
       privacyContactBody:
         '如有技术咨询、功能提案、隐私问题或平台反馈，请使用上方公开反馈部分，或直接打开 GitHub 队列：<a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
-      footer: "© NoBS Apps。实用工具. No bullshit.",
+      footer: "© NoBS Apps。实用工具。No bullshit.",
+    },
+  },
+  ko: {
+    common: {
+      tagline: "계정 없음. 광고 없음. 추적 없음. No bullshit.",
+      languageLabel: "언어",
+      themeSelectorLabel: "테마 선택",
+      lightThemeAria: "라이트 테마 사용",
+      lightThemeTitle: "라이트 테마",
+      darkThemeAria: "다크 테마 사용",
+      darkThemeTitle: "다크 테마",
+      copy: "복사",
+      copied: "복사됨",
+      failed: "실패",
+      privacyBackLink: "← 앱 페이지로 돌아가기",
+      privacyLinkTitle: "개인정보 처리방침",
+      privacyLinkBody: "개인정보 관련 상세 내용은 별도 정책 페이지에 게시되어 있습니다:",
+      privacyLink: "개인정보 처리방침 열기 →",
+      downloadTitle: "앱 다운로드",
+      downloadBody:
+        "스토어 등록은 아직 공개되지 않았습니다. 모바일 다운로드가 준비될 때까지 아래 자리 표시자를 사용하세요.",
+      googlePlayTitle: "Google Play Store",
+      appleStoreTitle: "Apple App Store",
+      storeComingSoon: "출시 예정",
+      storeQrLabel: "QR 준비 중",
+    },
+    home: {
+      metaTitle: "NoBS Apps | 순수한 유틸리티 선언",
+      promiseTitle: "NoBS Apps의 약속",
+      promiseBody1:
+        "요즘 앱은 너무 비대해졌습니다. 기본 도구조차 추적 쿠키, 알림 스팸, 강제 클라우드 계정으로 가득한 데이터 수집 제품이 되었습니다.",
+      promiseBody2:
+        "<strong>우리는 오프라인에서 작동하고, 데이터를 기기에 보관하며, 사용을 방해하지 않는 네이티브 유틸리티를 만듭니다.</strong>",
+      currentUtilitiesTitle: "현재 앱",
+      fastingDescription:
+        "모바일 플랫폼용 간헐적 단식 트래커입니다. 단식 기록을 기기에 보관하고, 클라우드 서비스 없이 작동하며, 광고나 분석 없이 선택적인 가벼운 연속 기록 및 별 메커니즘을 제공합니다.",
+      flappyTitle: "NoBS Flappy (출시 예정)",
+      flappyDescription:
+        "모바일 플랫폼용 가벼운 오프라인 아케이드 게임입니다. 플레이 기록을 기기에 보관하고, 인터넷 연결이나 클라우드 서비스 없이 작동하며, 광고, 계정, 분석 없이 단순한 거리 추적을 사용합니다.",
+      timersTitle: "NoBS Timers (출시 예정)",
+      timersDescription:
+        "모바일 플랫폼용 단순한 시계 유틸리티입니다. 알람, 스톱워치, 카운트다운, 뽀모도로 사이클을 기기에 로컬로 보관하고 인터넷 연결, 광고, 계정, 분석, 클라우드 동기화 없이 작동합니다.",
+      viewDocumentation: "앱 소개 보기 →",
+      supportTitle: "독립 개발 지원",
+      supportBody:
+        "우리는 광고를 표시하지 않고, 데이터를 추적하지 않으며, 유틸리티 기능을 유료 장벽 뒤에 잠그지 않습니다. 비대해진 소프트웨어에 반대하는 우리의 선언에 공감한다면 개발을 후원해 주세요:",
+      paypalTitle: "PayPal / 카드",
+      paypalInstruction: "PayPal 또는 일반 신용카드 결제로 유틸리티 앱의 지속적인 개발을 지원할 수 있습니다:",
+      paypalAction: "PayPal / 카드로 지원 →",
+      binanceInstruction:
+        "Binance 사용자를 위한 가장 간편한 옵션입니다. Binance 앱으로 스캔하거나 영구 Pay ID로 직접 보내세요:",
+      copyBinancePay: "Binance Pay ID 복사",
+      binanceAlt: "Binance Pay QR 코드",
+      nativeCryptoTitle: "네이티브 암호화폐 네트워크",
+      nativeCryptoInstruction:
+        "외부 소프트웨어 또는 하드웨어 지갑에서 보내는 후원자를 위한 옵션입니다.<br>자금 손실을 막기 위해 자산 네트워크를 정확히 일치시켜 주세요.",
+      tronTag: "TRX 또는 USDT (Tron 네트워크 TRC20)",
+      tronInstruction: "이 Tron 주소는 TRC20 네트워크로 보내는 네이티브 TRX 또는 Tether USDT에만 사용하세요.",
+      copyTron: "Tron 주소 복사",
+      showTronQr: "Tron QR 코드 표시",
+      tronAlt: "Tron 네트워크 TRX 및 USDT TRC20 QR 코드",
+      bnbTag: "BNB (BNB Smart Chain BEP20)",
+      copyBnb: "BNB Smart Chain 주소 복사",
+      showBnbQr: "BNB QR 코드 표시",
+      bnbAlt: "BNB Smart Chain QR 코드",
+      btcTag: "BTC (Bitcoin 네트워크)",
+      copyBitcoin: "Bitcoin 주소 복사",
+      showBtcQr: "BTC QR 코드 표시",
+      bitcoinAlt: "Bitcoin QR 코드",
+      solTag: "SOL (Solana 네트워크)",
+      copySolana: "Solana 주소 복사",
+      showSolQr: "SOL QR 코드 표시",
+      solanaAlt: "Solana QR 코드",
+      ltcTag: "LTC (Litecoin 네트워크)",
+      copyLitecoin: "Litecoin 주소 복사",
+      showLtcQr: "LTC QR 코드 표시",
+      litecoinAlt: "Litecoin QR 코드",
+      footer: "© NoBS Apps. 유용한 유틸리티. No bullshit.",
+    },
+    fasting: {
+      metaTitle: "NoBS Fasting | 로컬 우선 대사 트래커",
+      backLink: "← NoBS Apps로 돌아가기",
+      supportTitle: "독립 개발 지원",
+      supportBody:
+        "NoBS Fasting은 광고, 텔레메트리, 강제 계정, 유료 기능 잠금 없이 만들어졌습니다. 개발을 지원하려면 NoBS Apps 지원 섹션의 기부 옵션을 사용하세요.",
+      supportLink: "NoBS Apps 지원 옵션 열기 →",
+      phasesTitle: "대사 추적 단계",
+      phasesIntro: "로컬 진행 링은 경과 시간에 따라 단식 마일스톤을 동적으로 추적합니다:",
+      phase04Time: "04시간",
+      phase04Title: "초기 단식",
+      phase04Body: "소화가 마무리되고 혈당이 안정되며 인슐린 수치가 낮아지기 시작합니다.",
+      phase12Time: "12시간",
+      phase12Title: "지방 연소",
+      phase12Body: "몸은 저장된 당분을 소진하고 에너지원으로 저장 지방을 태우는 대사 전환을 시작합니다.",
+      phase18Time: "18시간",
+      phase18Title: "케토시스",
+      phase18Body:
+        "저장 에너지 사용 방식이 바뀌면서 간의 케톤 생성이 증가할 수 있습니다. 효과는 사람마다 다르므로 앱은 이를 의학적 조언이 아닌 교육용 마일스톤으로 표시합니다.",
+      phase24Time: "24시간",
+      phase24Title: "세포 정리",
+      phase24Body:
+        "긴 단식에서는 자가포식과 관련된 정리 과정이 더 활발해질 수 있습니다. NoBS Fasting은 일반적인 단식 교육에 집중하며 신중한 표현을 유지합니다.",
+      phase24PlusTime: "24시간 이상 (확장 모드)",
+      phase24PlusTitle: "자가포식 최고점",
+      phase24PlusBody:
+        "24시간 이후에는 타이머가 확장 모드로 전환되어 더 긴 마일스톤을 계속 보여 주되, 보장된 생물학적 결과를 암시하지 않습니다.",
+      phase30Time: "30시간",
+      phase30Title: "성장 호르몬",
+      phase30Body:
+        "긴 단식 중에는 성장 호르몬 패턴이 바뀔 수 있습니다. 앱은 이 마일스톤을 특정 결과에 대한 약속이 아니라 시간 표시로만 추적합니다.",
+      phase36Time: "36시간",
+      phase36Title: "깊은 정화",
+      phase36Body:
+        "이 더 깊은 단식 표시는 고정된 시간이 고정된 세포 결과를 만든다고 주장하지 않으면서 확장 세션을 읽기 쉽게 유지합니다.",
+      phase48Time: "48시간",
+      phase48Title: "면역 리셋",
+      phase48Body:
+        "이는 NoBS Fasting이 추적하는 마지막 마일스톤입니다. 몸은 더 깊은 면역 세포 재활용 단계에 들어갈 수 있으며, 앱은 48시간 이후의 이점을 추적하지 않습니다.",
+      gamificationTitle: "게이미피케이션 및 연속 기록",
+      gamificationIntro:
+        "게이미피케이션은 선택 사항입니다. 활성화하면 NoBS Fasting은 로컬 전용 별, 연속 기록, 연속 기록 보호를 사용해 계정, 순위표, 소셜 공유, 참여 추적 없이 꾸준함을 보여 줍니다.",
+      starsTitle: "별",
+      starsBody:
+        "단식이 마일스톤 시간에 도달하면 별이 누적됩니다. 한 번의 단식으로 최대 8개의 별을 얻을 수 있습니다: 4h, 12h, 18h, 24h, 30h, 36h에 각각 1개, 48h에 2개입니다.",
+      streaksTitle: "연속 기록",
+      streaksBody:
+        "하루는 12시간 이상 완료된 단식, 이미 12시간에 도달한 진행 중 단식, 또는 연속 기록 보호로 포함될 때 연속 기록에 계산됩니다. 여러 날에 걸친 단식은 포함된 각 로컬 날짜를 기록에 반영합니다.",
+      freezesTitle: "연속 기록 보호",
+      freezesBody:
+        "연속 기록 보호는 별 20개를 사용하며 아직 기록되지 않은 로컬 날짜 하루를 보호할 수 있습니다. 단식이 진행 중이거나 적격 단식 또는 다른 보호로 이미 기록된 날에는 사용할 수 없습니다.",
+      bonusesTitle: "마일스톤 보너스",
+      bonusesBody:
+        "7일 연속 기록에 도달하면 별 3개 보너스를 받습니다. 30일 연속 기록에 도달하면 별 10개 보너스를 받습니다. 보너스는 끊기지 않은 연속 기록 마일스톤마다 한 번 지급되며, 연속 기록이 해당 기준 아래로 떨어진 뒤에만 초기화됩니다.",
+      localBehaviorTitle: "로컬 앱 동작",
+      localBehaviorIntro: "핵심 단식 흐름은 계정, 분석, 클라우드 동기화, 필수 네트워크 연결 없이 기기에서 작동합니다.",
+      historyTitle: "기록",
+      historyBody:
+        "완료되어 반영된 단식은 최신 항목부터 로컬에 저장됩니다. 긴 세션이나 날짜를 넘기는 세션은 시작 및 종료 날짜/시간을 표시하며, 중복 반영되는 단식은 기록이나 별을 추가하지 않고 버립니다.",
+      settingsTitle: "설정",
+      settingsBody:
+        "언어, 테마, 마일스톤 표시, 게이미피케이션, 알림은 기기 설정입니다. 즉시 적용되며 알림이나 게이미피케이션을 꺼도 앱은 계속 유용합니다.",
+      notificationsTitle: "알림",
+      notificationsBody:
+        "선택적인 로컬 알림은 단식 중 4h, 12h, 18h, 24h, 30h, 36h, 48h에 알려 줄 수 있습니다. 일일 시작 알림은 최근 시작 시간의 로컬 이동 평균을 사용합니다.",
+      feedbackTitle: "피드백 및 기능 요청",
+      feedbackBody: "NoBS Fasting의 버그 보고, 기능 제안, 플랫폼 피드백은 공개 피드백 대기열에 남겨 주세요:",
+      feedbackLink: "GitHub에서 NoBS Fasting 피드백 열기 →",
+      privacyTitle: "NoBS Fasting 개인정보 처리방침",
+      privacyUpdated: "마지막 업데이트: 2026년 6월 10일",
+      privacyIntro:
+        "이 개인정보 처리방침은 지원되는 모바일 플랫폼용으로 <strong>NoBS Apps</strong>가 개발 및 게시한 <strong>NoBS Fasting</strong> 모바일 애플리케이션의 데이터 개인정보 관행에 적용됩니다.",
+      privacyDataTitle: "1. 데이터 수집 및 전송에 관한 설명",
+      privacyDataBody1:
+        "<strong>NoBS Fasting은 엄격한 무텔레메트리, 로컬 우선 아키텍처로 작동합니다.</strong> 이 애플리케이션은 개인 정보, 민감 정보 또는 기기 식별 정보를 외부 클라우드 서버, 데이터베이스 또는 제3자에게 수집, 캡처, 모니터링, 가로채기 또는 전송하지 않습니다.",
+      privacyDataBody2:
+        "타사 분석 SDK, 광고 SDK, 충돌 보고 추적 모듈, 계정 시스템, 클라우드 동기화 또는 신원 관리 도구를 사용하지 않습니다. 활성 타이머, 기록, 설정, 알림, 게이미피케이션 또는 단계 설명에는 네트워크 요청이 필요하지 않습니다.",
+      privacyStorageTitle: "2. 로컬 저장소 샌드박스",
+      privacyStorageBody:
+        "활성 단식 상태, 완료된 세션, 연속 기록 보호, 별 잔액, 연속 기록 보너스 표시, 언어, 테마, 알림 설정, 마일스톤 표시 설정, 게이미피케이션 설정, 처리된 지원 구매 토큰은 플랫폼의 표준 영속성 기술을 사용해 기기의 앱 전용 로컬 저장소 영역에만 저장됩니다. 데이터는 항상 사용자의 개인 보관 및 통제 아래에 있습니다.",
+      privacyPermissionsTitle: "3. 기기 권한 사용",
+      privacyPermissionsBody:
+        "<strong>로컬 시스템 알람 / 알림:</strong> 플랫폼에서 지원되고 사용자가 활성화한 경우, 앱은 로컬 시스템 알림 API만 사용해 단식 중 4h, 12h, 18h, 24h, 30h, 36h, 48h 마일스톤 알림과 최근 로컬 시작 시간에 기반한 일일 시작 알림을 게시합니다. 알림을 끄면 예약된 마일스톤 알림과 스마트 알림이 취소됩니다. 이러한 알림에는 추적 분석이 포함되지 않습니다.",
+      privacyPurchasesTitle: "4. 선택적 스토어 지원 구매",
+      privacyPurchasesBody:
+        "일부 플랫폼 빌드는 상징적인 지원 수단으로 선택적 네이티브 스토어 구매를 제공할 수 있습니다. 이러한 구매는 기능이나 콘텐츠를 잠금 해제하지 않습니다. 플랫폼 스토어가 완료된 구매를 보고하면 앱은 감사 별의 중복 지급을 방지하기 위해 처리된 구매 토큰을 로컬에 기록할 수 있습니다.",
+      privacyChildrenTitle: "5. 아동 개인정보",
+      privacyChildrenBody:
+        "NoBS Fasting은 어떤 사용자 기기에서도 디지털 정보를 수집, 캡처 또는 전송하지 않으므로 아동의 개인 정보를 수집하지 않도록 설계되었습니다.",
+      privacyContactTitle: "6. 정책 연락처 및 지원 허브",
+      privacyContactBody:
+        '기술 문의, 기능 제안, 개인정보 질문 또는 플랫폼 피드백은 위 공개 피드백 섹션을 사용하거나 GitHub 대기열을 직접 열어 주세요: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_fasting_feedback.yml</a>',
+      footer: "© NoBS Apps. 유용한 유틸리티. No bullshit.",
+    },
+    flappy: {
+      metaTitle: "NoBS Flappy | 로컬 우선 오프라인 아케이드",
+      backLink: "← NoBS Apps로 돌아가기",
+      supportTitle: "독립 개발 지원",
+      supportBody:
+        "NoBS Flappy는 광고, 텔레메트리, 강제 계정, 유료 기능 잠금, 클라우드 순위표 없이 만들어졌습니다. 개발을 지원하려면 NoBS Apps 지원 섹션의 기부 옵션을 사용하세요.",
+      supportLink: "NoBS Apps 지원 옵션 열기 →",
+      gameplayTitle: "오프라인 아케이드 플레이",
+      gameplayIntro: "NoBS Flappy는 게임 루프를 단순하고 읽기 쉬우며 로컬로 유지합니다:",
+      controlTime: "탭 / 클릭",
+      controlTitle: "위로 날갯짓",
+      controlBody:
+        "플레이 화면 아무 곳이나 탭하면 위로 날갯짓합니다. 세계는 자동으로 스크롤되므로 목표는 새가 위험 요소에 닿지 않게 하는 것입니다.",
+      distanceTime: "거리",
+      distanceTitle: "계정이 아닌 거리",
+      distanceBody:
+        '게임은 점수, 소셜 점수 또는 온라인 순위를 사용하지 않습니다. 플레이 중에는 오른쪽 아래의 조용한 HUD가 "이동 거리:"를 표시하고, 완료된 플레이는 설정에 따라 킬로미터 또는 마일 단위로 거리를 보여 줍니다.',
+      offlineTime: "오프라인",
+      offlineTitle: "로컬 플레이",
+      offlineBody:
+        "플레이 기록과 최고 거리는 기기에 남습니다. 핵심 게임은 네트워크 접근, 로그인 또는 서버 서비스 없이 작동합니다.",
+      hudTime: "HUD",
+      hudTitle: "빠른 컨트롤",
+      hudBody:
+        "Start는 곧바로 플레이 화면으로 들어갑니다. 플레이 중 작은 라이트/다크 전환은 바닥선 아래에 유지되어 테마 변경이 날갯짓 입력으로 계산되지 않습니다.",
+      hazardsTitle: "위험 요소 및 게임 오버",
+      hazardsIntro: "플레이는 새가 로컬 게임 위험 요소와 충돌할 때만 끝납니다:",
+      buildingsTitle: "도시 건물",
+      buildingsBody:
+        "끝없는 도시는 읽기 쉬운 건물 실루엣, 계단형 및 피라미드형 지붕선, 큰 창 격자, 문, 가끔 등장하는 안테나를 사용합니다. 건물 본체, 안테나, 바닥은 단단한 위험 요소입니다.",
+      planesTitle: "비행기",
+      planesBody:
+        "비행기는 0.5 km 이후 해제되며, 높은 하늘 경로를 오른쪽에서 왼쪽으로 지나가고 세 단계의 속도를 사용합니다. 비행기와 충돌하면 전용 문구와 함께 플레이가 끝납니다.",
+      purpleAngryBirdTitle: "보라색 Angry Bird",
+      purpleAngryBirdBody:
+        "보라색 Angry Bird는 1 km에서 해제됩니다. 좌우가 반전된 종이접기 새로, 제한된 날갯짓 경로와 약한 플레이어 높이 편향을 가져 직접 추적하는 적이 되지 않으면서도 의식하는 듯한 움직임을 보입니다.",
+      redAngryBirdTitle: "빨간색 Angry Bird",
+      redAngryBirdBody:
+        "빨간색 Angry Bird는 2 km에서 해제됩니다. 보라색보다 빠르고 공격적이지만, 여전히 피할 수 있는 경로를 남겨야 합니다.",
+      thunderTitle: "번개 추락",
+      thunderBody:
+        "반복해서 너무 높이 날면 번개 추락 상태가 발생할 수 있습니다. 입력은 더 이상 효과가 없고, 새는 거꾸로 떨어지며, 오버레이는 충돌까지 기다린 뒤 플레이를 끝냅니다.",
+      difficultyTitle: "난이도 해제",
+      difficultyBody:
+        "안테나는 0.25 km 이후, 비행기는 0.5 km 이후, 보라색 Angry Bird는 1 km 이후, 빨간색 Angry Bird는 2 km 이후 등장할 수 있습니다. 세계 속도는 1.5 km, 2.5 km, 4 km에서 증가합니다.",
+      gameOverCopyTitle: "게임 오버 문구",
+      gameOverCopyBody:
+        '플레이는 무슨 일이 있었는지 설명합니다: 바닥, 건물, 안테나, 비행기, Angry Bird, 번개에는 각각 전용 메시지가 있습니다. Angry Bird 충돌 메시지는 "You\'ve been hit by an Angry Bird!"입니다.',
+      historyTitle: "로컬 기록",
+      historyIntro: "기록은 의도적으로 단순하며 배지, 별, 온라인 프로필, 참여 루프가 없습니다.",
+      runsTitle: "플레이 카드",
+      runsBody: "완료된 플레이는 최신 순으로 로컬에 저장됩니다. 각 카드는 로컬 날짜/시간과 도달한 거리를 표시합니다.",
+      bestTitle: "최고 거리",
+      bestBody: "기록이 있으면 최고 거리가 목록 위에 단순한 로컬 요약으로 표시됩니다. 기록이 없으면 비어 있습니다.",
+      feedbackTitle: "피드백 및 기능 요청",
+      feedbackBody: "NoBS Flappy의 버그 보고, 기능 제안, 플랫폼 피드백은 공개 피드백 대기열에 남겨 주세요:",
+      feedbackLink: "GitHub에서 NoBS Flappy 피드백 열기 →",
+      privacyTitle: "NoBS Flappy 개인정보 처리방침",
+      privacyUpdated: "마지막 업데이트: 2026년 6월 10일",
+      privacyIntro:
+        "이 개인정보 처리방침은 지원되는 모바일 플랫폼용으로 <strong>NoBS Apps</strong>가 개발 및 게시한 <strong>NoBS Flappy</strong> 모바일 애플리케이션의 데이터 개인정보 관행에 적용됩니다.",
+      privacyDataTitle: "1. 데이터 수집 및 전송에 관한 설명",
+      privacyDataBody1:
+        "<strong>NoBS Flappy는 엄격한 무텔레메트리, 로컬 우선 아키텍처로 작동합니다.</strong> 이 애플리케이션은 개인 정보, 민감 정보, 게임플레이 정보 또는 기기 식별 정보를 외부 클라우드 서버, 데이터베이스 또는 제3자에게 수집, 캡처, 모니터링, 가로채기 또는 전송하지 않습니다.",
+      privacyDataBody2:
+        "타사 분석 SDK, 충돌 보고 추적 모듈, 광고 SDK, 온라인 순위표 서비스 또는 신원 관리 도구를 사용하지 않습니다. 표준 게임플레이 중 이 애플리케이션은 네트워크 요청을 시작하지 않습니다.",
+      privacyStorageTitle: "2. 로컬 저장소 샌드박스",
+      privacyStorageBody:
+        "플레이 기록, 최고 거리, 언어, 테마, 거리 단위 설정, 처리된 지원 구매 토큰은 플랫폼의 표준 영속성 기술을 사용해 기기의 앱 전용 로컬 저장소 영역에만 저장됩니다. 데이터는 항상 사용자의 개인 보관 및 통제 아래에 있습니다.",
+      privacyPermissionsTitle: "3. 기기 권한 사용",
+      privacyPermissionsBody:
+        "<strong>특별한 게임플레이 권한 없음:</strong> 표준 게임플레이에는 위치, 연락처, 카메라, 마이크, 광고 식별자, 백그라운드 서비스, 푸시 알림 또는 클라우드 서비스가 필요하지 않습니다.",
+      privacyPurchasesTitle: "4. 선택적 스토어 지원 구매",
+      privacyPurchasesBody:
+        "일부 플랫폼 빌드는 상징적인 지원 수단으로 선택적 네이티브 스토어 구매를 제공할 수 있습니다. 이러한 구매는 기능이나 콘텐츠를 잠금 해제하지 않으며 별, 점수, 배지 또는 기타 보상을 부여하지 않습니다. 플랫폼 스토어가 완료된 구매를 보고하면 앱은 중복 처리를 방지하기 위해 처리된 구매 토큰을 로컬에 기록할 수 있습니다.",
+      privacyChildrenTitle: "5. 아동 개인정보",
+      privacyChildrenBody:
+        "NoBS Flappy는 어떤 사용자 기기에서도 디지털 정보를 수집, 캡처 또는 전송하지 않으므로 아동의 개인 정보를 수집하지 않도록 설계되었습니다.",
+      privacyContactTitle: "6. 정책 연락처 및 지원 허브",
+      privacyContactBody:
+        '기술 문의, 기능 제안, 개인정보 질문 또는 플랫폼 피드백은 위 공개 피드백 섹션을 사용하거나 GitHub 대기열을 직접 열어 주세요: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_flappy_feedback.yml</a>',
+      footer: "© NoBS Apps. 유용한 유틸리티. No bullshit.",
+    },
+    timers: {
+      metaTitle: "NoBS Timers | 로컬 우선 시계 유틸리티",
+      backLink: "← NoBS Apps로 돌아가기",
+      supportTitle: "독립 개발 지원",
+      supportBody:
+        "NoBS Timers는 광고, 텔레메트리, 강제 계정, 유료 기능 잠금, 클라우드 동기화 없이 만들어졌습니다. 개발을 지원하려면 NoBS Apps 지원 섹션의 기부 옵션을 사용하세요.",
+      supportLink: "NoBS Apps 지원 옵션 열기 →",
+      toolsTitle: "단순한 시계 도구",
+      toolsIntro:
+        "NoBS Timers는 일상적인 시간 도구를 단순하고 로컬로, 세로 전용 모바일 레이아웃에서 빠르게 사용할 수 있게 유지합니다.",
+      alarmTime: "시각",
+      alarmTitle: "알람",
+      alarmBody:
+        "시각을 선택하고 매일 반복할지 정한 뒤 저장합니다. 앱은 마지막으로 저장한 알람 시각을 기억하고 첫 사용 시에는 6시간 뒤를 기본값으로 제안합니다.",
+      stopwatchTime: "00:00:00",
+      stopwatchTitle: "스톱워치",
+      stopwatchBody:
+        "스톱워치에는 버튼이 하나뿐입니다: 시작, 정지, 그다음 재개. 랩, 구간 기록, 내보내기 또는 추가 컨트롤은 없습니다.",
+      countdownTime: "HH:MM:SS",
+      countdownTitle: "카운트다운",
+      countdownBody:
+        "시, 분, 초를 입력한 뒤 시작합니다. 마지막으로 사용한 시간이 기억되고, 실행 중 동작은 취소로 바뀌며, 0이 되면 앱의 표준 사운드가 재생됩니다.",
+      pomodoroTime: "25 + 5",
+      pomodoroTitle: "뽀모도로",
+      pomodoroBody:
+        "뽀모도로는 25분 작업과 5분 휴식을 고정으로 사용합니다. 각 전환마다 표준 사운드가 재생되고, 취소할 때까지 다음 구간이 자동으로 시작됩니다.",
+      localBehaviorTitle: "로컬 앱 동작",
+      localBehaviorIntro:
+        "핵심 시간 관리 흐름은 계정, 분석, 클라우드 동기화, 필수 네트워크 연결 없이 기기에서 작동합니다.",
+      navigationTitle: "하단 컨트롤",
+      navigationBody:
+        "첫 번째 하단 줄은 알람, 스톱워치, 카운트다운, 뽀모도로용 큰 버튼을 사용합니다. 더 작은 두 번째 줄은 시간 도구를 복잡하게 만들지 않으면서 설정과 지원을 계속 사용할 수 있게 합니다.",
+      settingsTitle: "설정",
+      settingsBody: "설정은 다른 NoBS 앱과 일관됩니다: 언어와 테마는 즉시 적용되고 기기에 로컬로 유지됩니다.",
+      notificationsTitle: "로컬 알림",
+      notificationsBody:
+        "알람, 카운트다운, 뽀모도로 전환은 플랫폼이 허용하는 경우 로컬 시스템 알림을 사용합니다. 권한은 시간 기능에 필요할 때만 요청됩니다.",
+      soundTitle: "하나의 사운드",
+      soundBody:
+        "NoBS Timers는 알람, 카운트다운, 작업 완료, 휴식 완료에 하나의 표준 알림음을 사용합니다. 사운드 선택기는 없습니다.",
+      feedbackTitle: "피드백 및 기능 요청",
+      feedbackBody: "NoBS Timers의 버그 보고, 기능 제안, 플랫폼 피드백은 공개 NoBS Apps 피드백 대기열에 남겨 주세요:",
+      feedbackLink: "GitHub에서 NoBS Timers 피드백 열기 →",
+      privacyTitle: "NoBS Timers 개인정보 처리방침",
+      privacyUpdated: "마지막 업데이트: 2026년 6월 11일",
+      privacyIntro:
+        "이 개인정보 처리방침은 지원되는 모바일 플랫폼용으로 <strong>NoBS Apps</strong>가 개발 및 게시한 <strong>NoBS Timers</strong> 모바일 애플리케이션의 데이터 개인정보 관행에 적용됩니다.",
+      privacyDataTitle: "1. 데이터 수집 및 전송에 관한 설명",
+      privacyDataBody1:
+        "<strong>NoBS Timers는 엄격한 무텔레메트리, 로컬 우선 아키텍처로 작동합니다.</strong> 이 애플리케이션은 개인 정보, 민감 정보, 시간 관리 정보 또는 기기 식별 정보를 외부 클라우드 서버, 데이터베이스 또는 제3자에게 수집, 캡처, 모니터링, 가로채기 또는 전송하지 않습니다.",
+      privacyDataBody2:
+        "타사 분석 SDK, 광고 SDK, 충돌 보고 추적 모듈, 계정 시스템, 클라우드 동기화 또는 신원 관리 도구를 사용하지 않습니다. 알람, 스톱워치, 카운트다운, 뽀모도로, 설정, 지원 페이지 표시 또는 로컬 알림 예약에는 네트워크 요청이 필요하지 않습니다.",
+      privacyStorageTitle: "2. 로컬 저장소 샌드박스",
+      privacyStorageBody:
+        "저장된 알람 시각, 매일 알람 설정, 마지막 카운트다운 시간, 필요한 경우 활성 타이머 상태, 언어, 테마, 처리된 지원 구매 토큰은 플랫폼의 표준 영속성 기술을 사용해 기기의 앱 전용 로컬 저장소 영역에만 저장됩니다. 데이터는 항상 사용자의 개인 보관 및 통제 아래에 있습니다.",
+      privacyPermissionsTitle: "3. 기기 권한 사용",
+      privacyPermissionsBody:
+        "<strong>로컬 시스템 알람 / 알림:</strong> 플랫폼에서 지원되고 사용자가 활성화한 경우, 앱은 로컬 시스템 API만 사용해 저장된 알람, 카운트다운 완료, 뽀모도로 작업/휴식 전환을 알립니다. 타이머를 끄거나 취소하면 해당 예약 알림도 취소됩니다. 이러한 알림에는 추적 분석이 포함되지 않습니다.",
+      privacyPurchasesTitle: "4. 선택적 스토어 지원 구매",
+      privacyPurchasesBody:
+        "일부 플랫폼 빌드는 상징적인 지원 수단으로 선택적 네이티브 스토어 구매를 제공할 수 있습니다. 이러한 구매는 기능이나 콘텐츠를 잠금 해제하지 않습니다. 플랫폼 스토어가 완료된 구매를 보고하면 앱은 중복 처리를 방지하기 위해 처리된 구매 토큰을 로컬에 기록할 수 있습니다.",
+      privacyChildrenTitle: "5. 아동 개인정보",
+      privacyChildrenBody:
+        "NoBS Timers는 어떤 사용자 기기에서도 디지털 정보를 수집, 캡처 또는 전송하지 않으므로 아동의 개인 정보를 수집하지 않도록 설계되었습니다.",
+      privacyContactTitle: "6. 정책 연락처 및 지원 허브",
+      privacyContactBody:
+        '기술 문의, 기능 제안, 개인정보 질문 또는 플랫폼 피드백은 위 공개 피드백 섹션을 사용하거나 GitHub 대기열을 직접 열어 주세요: <a href="https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml" target="_blank" rel="noopener noreferrer" class="section-link">https://github.com/daigof/nobs-apps/issues/new?template=nobs_timers_feedback.yml</a>',
+      footer: "© NoBS Apps. 유용한 유틸리티. No bullshit.",
     },
   },
 };

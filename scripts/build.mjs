@@ -74,6 +74,7 @@ const ogLocaleByCode = {
   fr: "fr_FR",
   hi: "hi_IN",
   ja: "ja_JP",
+  ko: "ko_KR",
   pt: "pt_PT",
   "zh-Hans": "zh_CN",
 };
