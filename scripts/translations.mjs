@@ -7,6 +7,7 @@ export const supportedLanguages = [
   ["ja", "日本語"],
   ["hi", "हिन्दी"],
   ["zh-Hans", "简体中文"],
+  ["ko", "한국어"]
 ];
 
 export const translations = {
