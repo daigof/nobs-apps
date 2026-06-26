@@ -1,22 +1,22 @@
 {
-	"name": "nobs-apps",
-	"version": "0.1.0",
-	"private": true,
-	"type": "module",
-	"packageManager": "pnpm@11.8.0",
-	"scripts": {
-		"check": "biome check .",
-		"build": "node scripts/build.mjs",
-		"deploy": "wrangler pages deploy ./build --project-name=nobs-apps",
-		"release": "pnpm check && pnpm build && pnpm deploy",
-		"dev": "node scripts/dev.mjs"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^2.4.16",
-		"cheerio": "^1.2.0",
-		"html-minifier-terser": "^7.2.0",
-		"lightningcss": "^1.32.0",
-		"terser": "^5.48.0",
-		"wrangler": "^4.100.0"
-	}
+  "name": "nobs-apps",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.8.0",
+  "scripts": {
+    "check": "biome check .",
+    "build": "node scripts/build.mjs",
+    "deploy": "wrangler pages deploy ./dist --project-name=nobs-apps",
+    "release": "pnpm check && pnpm build && pnpm deploy",
+    "dev": "node scripts/dev.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "cheerio": "^1.2.0",
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "^1.32.0",
+    "terser": "^5.48.0",
+    "wrangler": "^4.100.0"
+  }
 }

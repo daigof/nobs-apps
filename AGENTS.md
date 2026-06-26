@@ -6,8 +6,8 @@ This repository contains the NoBS Apps Website published at `https://nobsapps.co
 
 - Run `pnpm check` after every change in this repository.
 - `pnpm check` runs `biome check .`; treat warnings as failures and fix them before finishing.
-- Run `pnpm build` when changes affect generated output, routing, deployable assets, translations, metadata, or files copied into `build/`.
-- Do not edit `build/` files directly. Change the source templates, translation data, assets, or build script, then regenerate `build/` with `pnpm build`.
+- Run `pnpm build` when changes affect generated output, routing, deployable assets, translations, metadata, or files copied into `dist/`.
+- Do not edit `dist/` files directly. Change the source templates, translation data, assets, or build script, then regenerate `dist/` with `pnpm build`.
 
 ## Static Site Notes
 

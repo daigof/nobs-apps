@@ -5,11 +5,11 @@ import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const rootDirectory = fileURLToPath(new URL("../", import.meta.url));
-const buildDirectory = join(rootDirectory, "build");
+const buildDirectory = join(rootDirectory, "dist");
 const preferredPort = Number.parseInt(process.env.PORT ?? "8080", 10);
 const rebuildDelay = 150;
 
-const ignoredDirectories = new Set([".git", "build", "node_modules", "test-results"]);
+const ignoredDirectories = new Set([".git", "dist", "node_modules", "test-results"]);
 const watchedRoots = new Set([
   "assets",
   "fasting",

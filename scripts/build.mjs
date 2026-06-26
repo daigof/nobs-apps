@@ -8,7 +8,7 @@ import { minify as minifyJs } from "terser";
 import { supportedLanguages, translations } from "./translations.mjs";
 
 const rootDirectory = fileURLToPath(new URL("../", import.meta.url));
-const buildDirectory = join(rootDirectory, "build");
+const buildDirectory = join(rootDirectory, "dist");
 const siteOrigin = "https://nobsapps.co";
 const lastModified = "2026-06-12";
 
@@ -475,4 +475,4 @@ for (const copyPath of copyPaths) {
   });
 }
 
-console.log(`Built ${pages.length} pages in ${locales.length} locales and production assets into build/`);
+console.log(`Built ${pages.length} pages in ${locales.length} locales and production assets into dist/`);
