@@ -468,7 +468,7 @@ a {
   border-radius: 8px;
 }
 
-.store-card[aria-disabled="true"] {
+.store-card[data-disabled="true"] {
   color: var(--text-sub);
   cursor: default;
 }
