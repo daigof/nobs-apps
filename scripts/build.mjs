@@ -60,36 +60,17 @@ const pages = [
   },
 ];
 
-const locales = supportedLanguages.map(([code, label]) => ({
-  code,
-  label,
-  slug: code === "en" ? "" : code.toLowerCase(),
-  hreflang: code,
+const locales = supportedLanguages.map((language) => ({
+  ...language,
+  slug: language.code === "en" ? "" : language.code,
 }));
 
-const ogLocaleByCode = {
-  de: "de_DE",
-  en: "en_US",
-  es: "es_ES",
-  fr: "fr_FR",
-  hi: "hi_IN",
-  ja: "ja_JP",
-  ko: "ko_KR",
-  pt: "pt_PT",
-  "zh-Hans": "zh_CN",
-};
-
-const appStoreCountryByLocaleCode = {
-  de: "de",
-  en: "us",
-  es: "es",
-  fr: "fr",
-  hi: "in",
-  ja: "jp",
-  ko: "kr",
-  pt: "pt",
-  "zh-Hans": "cn",
-};
+const legacyRedirectLocales = [
+  {
+    fromSlug: "zh-hans",
+    toSlug: "cn",
+  },
+];
 
 const copyPaths = [
   "favicon.ico",
@@ -153,12 +134,8 @@ const getOutputPath = (locale, page) => `${getRoutePath(locale, page).replace(/^
 
 const getAbsoluteUrl = (locale, page) => `${siteOrigin}${getRoutePath(locale, page)}`;
 
-const getAssetLocaleCode = (localeCode) => localeCode.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-
-const getFastingAppStoreUrl = (localeCode) => {
-  const countryCode = appStoreCountryByLocaleCode[localeCode] ?? appStoreCountryByLocaleCode.en;
-  return `https://apps.apple.com/${countryCode}/app/nobs-fasting/id6783376807`;
-};
+const getFastingAppStoreUrl = (locale) =>
+  `https://apps.apple.com/${locale.appStoreCountry}/app/nobs-fasting/id6783376807`;
 
 const getAssetPrefix = (outputPath) => {
   const directory = dirname(outputPath);
@@ -205,7 +182,7 @@ const getDescription = (localeCode, page) => {
 
 const buildAlternateLinks = (page) => {
   const links = locales
-    .map((locale) => `<link rel="alternate" hreflang="${locale.hreflang}" href="${getAbsoluteUrl(locale, page)}">`)
+    .map((locale) => `<link rel="alternate" hreflang="${locale.languageTag}" href="${getAbsoluteUrl(locale, page)}">`)
     .join("");
 
   return `${links}<link rel="alternate" hreflang="x-default" href="${getAbsoluteUrl(locales[0], page)}">`;
@@ -219,7 +196,7 @@ const getStructuredData = (locale, page, title, description) => {
       name: title.split("|")[0].trim(),
       url: getAbsoluteUrl(locale, page),
       description,
-      inLanguage: locale.code,
+      inLanguage: locale.languageTag,
       publisher: {
         "@type": "Organization",
         name: "NoBS Apps",
@@ -249,7 +226,7 @@ const getStructuredData = (locale, page, title, description) => {
           publisher: {
             "@id": `${siteOrigin}/#organization`,
           },
-          inLanguage: locale.code,
+          inLanguage: locale.languageTag,
         },
       ],
     };
@@ -263,7 +240,7 @@ const getStructuredData = (locale, page, title, description) => {
     description,
     applicationCategory: page.applicationCategory,
     operatingSystem: "Android, iOS",
-    inLanguage: locale.code,
+    inLanguage: locale.languageTag,
     publisher: {
       "@type": "Organization",
       name: "NoBS Apps",
@@ -284,10 +261,7 @@ const buildHeadMetadata = (locale, page, title, description) => {
   const structuredData = JSON.stringify(getStructuredData(locale, page, title, description), null, 2);
   const ogLocaleAlternates = locales
     .filter((alternateLocale) => alternateLocale.code !== locale.code)
-    .map(
-      (alternateLocale) =>
-        `<meta property="og:locale:alternate" content="${ogLocaleByCode[alternateLocale.code] ?? alternateLocale.code}">`,
-    )
+    .map((alternateLocale) => `<meta property="og:locale:alternate" content="${alternateLocale.ogLocale}">`)
     .join("");
 
   return `
@@ -301,7 +275,7 @@ const buildHeadMetadata = (locale, page, title, description) => {
     <meta property="og:description" content="${escapeAttribute(description)}">
     <meta property="og:url" content="${url}">
     <meta property="og:site_name" content="NoBS Apps">
-    <meta property="og:locale" content="${ogLocaleByCode[locale.code] ?? locale.code}">
+    <meta property="og:locale" content="${locale.ogLocale}">
     ${ogLocaleAlternates}
     <meta property="og:image" content="${image}">
     <meta property="og:image:width" content="1200">
@@ -363,7 +337,7 @@ const localizeTemplate = (html, locale, page) => {
       : getTranslation(locale.code, `${translationKey}.metaTitle`);
   const description = getDescription(locale.code, page);
 
-  $("html").attr("lang", locale.code);
+  $("html").attr("lang", locale.languageTag);
   $("title").text(title);
 
   $("[data-i18n]").each((_, element) => {
@@ -407,8 +381,8 @@ const localizeTemplate = (html, locale, page) => {
   });
 
   if (page.key === "fasting") {
-    const appStoreUrl = getFastingAppStoreUrl(locale.code);
-    const qrPath = `${assetPrefix}assets/images/fasting/app-store-${getAssetLocaleCode(locale.code)}.svg`;
+    const appStoreUrl = getFastingAppStoreUrl(locale);
+    const qrPath = `${assetPrefix}assets/images/fasting/app-store-${locale.code}.svg`;
 
     $("[data-fasting-app-store-url]").attr("href", appStoreUrl).removeAttr("data-fasting-app-store-url");
     $("[data-fasting-app-store-qr]").attr("src", qrPath).removeAttr("data-fasting-app-store-qr");
@@ -463,6 +437,17 @@ const buildRoutesConfig = () =>
   )}
 `;
 
+const buildRedirects = () => {
+  const redirects = legacyRedirectLocales.flatMap(({ fromSlug, toSlug }) =>
+    pages.map((page) => {
+      const suffix = page.route;
+      return `/${fromSlug}/${suffix} /${toSlug}/${suffix} 301`;
+    }),
+  );
+
+  return `${redirects.join("\n")}\n`;
+};
+
 await rm(buildDirectory, { force: true, recursive: true });
 await mkdir(buildDirectory, { recursive: true });
 
@@ -495,6 +480,7 @@ const minifiedStylesheet = minifyCss({
 await writeBuildFile("assets/styles.css", minifiedStylesheet.code);
 await writeBuildFile("sitemap.xml", buildSitemap());
 await writeBuildFile("_routes.json", buildRoutesConfig());
+await writeBuildFile("_redirects", buildRedirects());
 
 for (const copyPath of copyPaths) {
   await cp(join(rootDirectory, copyPath), join(buildDirectory, copyPath), {

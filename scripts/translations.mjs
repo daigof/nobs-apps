@@ -1,13 +1,13 @@
 export const supportedLanguages = [
-  ["en", "English"],
-  ["es", "Español"],
-  ["pt", "Português"],
-  ["fr", "Français"],
-  ["de", "Deutsch"],
-  ["ja", "日本語"],
-  ["hi", "हिन्दी"],
-  ["zh-Hans", "简体中文"],
-  ["ko", "한국어"],
+  { appStoreCountry: "us", code: "en", label: "English", languageTag: "en", ogLocale: "en_US" },
+  { appStoreCountry: "es", code: "es", label: "Español", languageTag: "es", ogLocale: "es_ES" },
+  { appStoreCountry: "pt", code: "pt", label: "Português", languageTag: "pt", ogLocale: "pt_PT" },
+  { appStoreCountry: "fr", code: "fr", label: "Français", languageTag: "fr", ogLocale: "fr_FR" },
+  { appStoreCountry: "de", code: "de", label: "Deutsch", languageTag: "de", ogLocale: "de_DE" },
+  { appStoreCountry: "jp", code: "ja", label: "日本語", languageTag: "ja", ogLocale: "ja_JP" },
+  { appStoreCountry: "in", code: "hi", label: "हिन्दी", languageTag: "hi", ogLocale: "hi_IN" },
+  { appStoreCountry: "cn", code: "cn", label: "简体中文", languageTag: "zh-Hans", ogLocale: "zh_CN" },
+  { appStoreCountry: "kr", code: "ko", label: "한국어", languageTag: "ko", ogLocale: "ko_KR" },
 ];
 
 export const translations = {
@@ -2371,7 +2371,7 @@ export const translations = {
       footer: "© NoBS Apps. उपयोगी utilities. No bullshit.",
     },
   },
-  "zh-Hans": {
+  cn: {
     common: {
       tagline: "无账号。无广告。无追踪。No bullshit.",
       languageLabel: "语言",
