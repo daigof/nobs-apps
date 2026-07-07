@@ -79,6 +79,18 @@ const ogLocaleByCode = {
   "zh-Hans": "zh_CN",
 };
 
+const appStoreCountryByLocaleCode = {
+  de: "de",
+  en: "us",
+  es: "es",
+  fr: "fr",
+  hi: "in",
+  ja: "jp",
+  ko: "kr",
+  pt: "pt",
+  "zh-Hans": "cn",
+};
+
 const copyPaths = [
   "favicon.ico",
   "robots.txt",
@@ -140,6 +152,13 @@ const getRoutePath = (locale, page) => `/${locale.slug ? `${locale.slug}/` : ""}
 const getOutputPath = (locale, page) => `${getRoutePath(locale, page).replace(/^\//, "")}index.html`;
 
 const getAbsoluteUrl = (locale, page) => `${siteOrigin}${getRoutePath(locale, page)}`;
+
+const getAssetLocaleCode = (localeCode) => localeCode.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
+const getFastingAppStoreUrl = (localeCode) => {
+  const countryCode = appStoreCountryByLocaleCode[localeCode] ?? appStoreCountryByLocaleCode.en;
+  return `https://apps.apple.com/${countryCode}/app/nobs-fasting/id6783376807`;
+};
 
 const getAssetPrefix = (outputPath) => {
   const directory = dirname(outputPath);
@@ -386,6 +405,14 @@ const localizeTemplate = (html, locale, page) => {
       $(image).attr("src", `${assetPrefix}${src.slice(src.indexOf("assets/"))}`);
     }
   });
+
+  if (page.key === "fasting") {
+    const appStoreUrl = getFastingAppStoreUrl(locale.code);
+    const qrPath = `${assetPrefix}assets/images/fasting/app-store-${getAssetLocaleCode(locale.code)}.svg`;
+
+    $("[data-fasting-app-store-url]").attr("href", appStoreUrl).removeAttr("data-fasting-app-store-url");
+    $("[data-fasting-app-store-qr]").attr("src", qrPath).removeAttr("data-fasting-app-store-qr");
+  }
 
   removeExistingSeo($);
   $("title").after(buildHeadMetadata(locale, page, title, description));

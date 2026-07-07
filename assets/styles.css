@@ -479,6 +479,31 @@ a {
   font-weight: 600;
 }
 
+.store-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.store-qr-link {
+  display: block;
+  align-self: end;
+}
+
+.store-qr-link:focus-visible {
+  outline: 2px solid var(--accent-green);
+  outline-offset: 2px;
+}
+
+.store-qr-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 8px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
 .qr-placeholder {
   display: grid;
   place-items: center;

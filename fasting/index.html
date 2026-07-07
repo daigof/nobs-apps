@@ -70,7 +70,7 @@
 
     <section id="download">
       <h2 data-i18n="common.downloadTitle">Download app</h2>
-      <p data-i18n="common.downloadBody">Store listings are not live yet. Use the placeholders below until mobile downloads are ready.</p>
+      <p data-i18n="fasting.downloadBody">NoBS Fasting is live on the Apple App Store. Google Play remains in progress.</p>
       <div class="download-grid">
         <div class="store-card" data-disabled="true">
           <div>
@@ -81,14 +81,20 @@
             <span data-i18n="common.storeQrLabel">QR coming soon</span>
           </div>
         </div>
-        <div class="store-card" data-disabled="true">
+        <div class="store-card">
           <div>
             <div class="phase-title" data-i18n="common.appleStoreTitle">Apple App Store</div>
-            <p data-i18n="common.storeComingSoon">Coming soon</p>
+            <p data-i18n="fasting.appleStoreBody">Scan the QR code or open the localized App Store page.</p>
+            <p>
+              <a class="section-link store-link" href="https://apps.apple.com/us/app/nobs-fasting/id6783376807" target="_blank"
+                rel="noopener noreferrer" data-fasting-app-store-url data-i18n="fasting.appleStoreAction">Open on the App Store &rarr;</a>
+            </p>
           </div>
-          <div class="qr-placeholder" aria-hidden="true">
-            <span data-i18n="common.storeQrLabel">QR coming soon</span>
-          </div>
+          <a class="store-qr-link" href="https://apps.apple.com/us/app/nobs-fasting/id6783376807" target="_blank" rel="noopener noreferrer"
+            data-fasting-app-store-url>
+            <img class="store-qr-image" src="../assets/images/fasting/app-store-en.svg" alt="NoBS Fasting App Store QR code"
+              data-fasting-app-store-qr data-i18n-attr="alt:fasting.appleQrAlt">
+          </a>
         </div>
       </div>
     </section>
